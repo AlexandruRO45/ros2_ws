@@ -1,6 +1,6 @@
 # ROS 2 Workspace
 
-This repository contains a ROS 2 workspace created by [Your Name].
+This repository contains my ROS 2 workspace.
 
 ## Overview
 
