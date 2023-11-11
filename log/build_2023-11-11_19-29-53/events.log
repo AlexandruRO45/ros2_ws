@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000195] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000251] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000309] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/alex/ros2_ws/install/my_robot_interfaces')])}
+[0.000695] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.067834] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 1}
+[0.078473] (-) EventReactorShutdown: {}
