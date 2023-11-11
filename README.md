@@ -10,7 +10,7 @@ This ROS 2 workspace is set up to facilitate the development and organization of
 
 ### Prerequisites
 
-- [ROS 2 Humble](https://docs.ros.org/en/foxy/Installation.html)
+- [ROS 2 Humble](https://docs.ros.org/en/humble/Installation.html)
 - [Colcon](https://colcon.readthedocs.io/en/released/user/installation.html)
 
 ### Installation
