@@ -1,0 +1,89 @@
+[0.154s] Invoking command in '/home/alex/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.172s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.299s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.459s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.463s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.470s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.565s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.567s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.701s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.848s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.134s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.142s] -- Looking for pthread.h
+[5.272s] -- Looking for pthread.h - found
+[5.272s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.395s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.396s] -- Found Threads: TRUE  
+[5.546s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[5.679s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.733s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.733s] -- Configured cppcheck include dirs: 
+[5.733s] -- Configured cppcheck exclude dirs and/or files: 
+[5.734s] -- Added test 'lint_cmake' to check CMake code style
+[5.735s] -- Added test 'uncrustify' to check C / C++ code style
+[5.735s] -- Configured uncrustify additional arguments: 
+[5.735s] -- Added test 'xmllint' to check XML markup files
+[5.736s] -- Configuring done
+[5.764s] -- Generating done
+[5.765s] -- Build files have been written to: /home/alex/ros2_ws/build/my_cpp_pkg
+[5.798s] [  6%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[5.801s] [ 31%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[5.801s] [ 31%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[5.801s] [ 31%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[5.802s] [ 31%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[5.802s] [ 37%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[5.807s] [ 43%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[5.812s] [ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[11.512s] [ 56%] [32m[1mLinking CXX executable cpp_node[0m
+[11.889s] [ 56%] Built target cpp_node
+[12.265s] [ 62%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[12.462s] [ 68%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[12.620s] [ 75%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[12.620s] [ 75%] Built target add_two_ints_server
+[12.810s] [ 75%] Built target add_two_ints_client_no_oop
+[12.946s] [ 75%] Built target add_two_ints_client
+[13.417s] [ 81%] [32m[1mLinking CXX executable robot_news_station[0m
+[13.426s] [ 87%] [32m[1mLinking CXX executable number_publisher[0m
+[13.728s] [ 87%] Built target number_publisher
+[13.729s] [ 87%] Built target robot_news_station
+[17.446s] [ 93%] [32m[1mLinking CXX executable smartphone[0m
+[17.881s] [ 93%] Built target smartphone
+[18.208s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[18.661s] [100%] Built target number_counter
+[18.671s] Invoked command in '/home/alex/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[18.711s] Invoking command in '/home/alex/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/my_cpp_pkg
+[18.716s] -- Install configuration: ""
+[18.717s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[18.717s] -- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[18.717s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[18.718s] -- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[18.718s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[18.720s] -- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[18.720s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[18.721s] -- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[18.721s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[18.724s] -- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[18.724s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[18.724s] -- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[18.724s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[18.725s] -- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[18.725s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[18.725s] -- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""
+[18.726s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[18.726s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[18.726s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[18.726s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[18.726s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[18.726s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[18.726s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[18.727s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[18.727s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[18.727s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[18.727s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[18.727s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[18.727s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[18.727s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[18.728s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[18.729s] Invoked command in '/home/alex/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/my_cpp_pkg

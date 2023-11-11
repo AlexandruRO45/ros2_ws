@@ -1,0 +1,66 @@
+[0.128s] Invoking command in '/home/alex/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.142s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.259s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.396s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.402s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.404s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.431s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.490s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.492s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.886s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.046s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[5.184s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.251s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.251s] -- Configured cppcheck include dirs: 
+[5.251s] -- Configured cppcheck exclude dirs and/or files: 
+[5.252s] -- Added test 'lint_cmake' to check CMake code style
+[5.253s] -- Added test 'uncrustify' to check C / C++ code style
+[5.253s] -- Configured uncrustify additional arguments: 
+[5.253s] -- Added test 'xmllint' to check XML markup files
+[5.254s] -- Configuring done
+[5.283s] -- Generating done
+[5.285s] -- Build files have been written to: /home/alex/ros2_ws/build/my_cpp_pkg
+[5.313s] [35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[5.313s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[5.313s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[5.313s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[5.315s] [35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[5.316s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[5.325s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[5.326s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[5.341s] [ 12%] Built target robot_news_station
+[5.342s] [ 37%] Built target smartphone
+[5.342s] [ 37%] Built target cpp_node
+[5.342s] [ 50%] Built target number_publisher
+[5.349s] [ 75%] Built target add_two_ints_client
+[5.349s] [ 75%] Built target add_two_ints_client_no_oop
+[5.349s] [ 87%] Built target number_counter
+[5.349s] [100%] Built target add_two_ints_server
+[5.361s] Invoked command in '/home/alex/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[5.407s] Invoking command in '/home/alex/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/my_cpp_pkg
+[5.414s] -- Install configuration: ""
+[5.414s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[5.414s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[5.414s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[5.415s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[5.415s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[5.415s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[5.415s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[5.415s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[5.415s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[5.415s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[5.416s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[5.416s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[5.416s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[5.416s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[5.416s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[5.416s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[5.416s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[5.416s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[5.416s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[5.417s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[5.417s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[5.417s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[5.417s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[5.418s] Invoked command in '/home/alex/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/my_cpp_pkg
