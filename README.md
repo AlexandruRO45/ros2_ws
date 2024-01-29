@@ -1,10 +1,10 @@
 # ROS 2 Workspace
 
-This repository contains my ROS 2 workspace.
+This repository contains my general purpose ROS 2 workspace.
 
 ## Overview
 
-This ROS 2 workspace is set up to facilitate the development and organization of your robotic projects. It includes essential configurations and packages to kickstart your ROS 2 development.
+This ROS 2 workspace is set up to facilitate the development and organization of your robotic projects. It includes essential configurations and packages to kickstart verious amount of projects.
 
 ## Getting Started
 
@@ -57,5 +57,5 @@ This ROS 2 workspace is set up to facilitate the development and organization of
 
 ## Acknowledgments
 
-This project is meant for my practise with ros2 in general, plus some additional packages that might be used for the Robo Cup 2024.
+This project is meant for my practise with ros2 in general, plus some additional packages that might be used for the Robo Cup 2024 NAO robot.
 
