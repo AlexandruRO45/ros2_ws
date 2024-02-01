@@ -1,0 +1,88 @@
+[0.293s] Invoking command in '/home/alex/ros2_ws/build/webots_ros2_control': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/turtlesim:/home/alex/ros2_ws/install/my_robot_interfaces:/home/alex/ros2_ws/install/my_cpp_pkg:/home/alex/rmf_ws/install/rmf_demos_gz_classic:/home/alex/rmf_ws/install/rmf_demos_gz:/home/alex/rmf_ws/install/rmf_demos:/home/alex/rmf_ws/install/rmf_demos_maps:/home/alex/rmf_ws/install/rmf_demos_dashboard_resources:/home/alex/rmf_ws/install/rmf_demos_assets:/home/alex/ros2_ws/install/my_py_pkg:/home/alex/rmf_ws/install/rmf_demos_tasks:/home/alex/rmf_ws/install/rmf_demos_panel:/home/alex/rmf_ws/install/rmf_demos_fleet_adapter:/home/alex/rmf_ws/install/rmf_demos_bridges:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib PYTHONPATH=/home/alex/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/alex/ros2_ws/src/webots_ros2/webots_ros2_control -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/webots_ros2_control
+[0.665s] -- The C compiler identification is GNU 11.4.0
+[0.665s] -- The CXX compiler identification is GNU 11.4.0
+[0.665s] -- Detecting C compiler ABI info
+[0.665s] -- Detecting C compiler ABI info - done
+[0.665s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.665s] -- Detecting C compile features
+[0.665s] -- Detecting C compile features - done
+[0.666s] -- Detecting CXX compiler ABI info
+[0.666s] -- Detecting CXX compiler ABI info - done
+[0.666s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.666s] -- Detecting CXX compile features
+[0.666s] -- Detecting CXX compile features - done
+[0.666s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.677s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.790s] -- Found hardware_interface: 2.37.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.838s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.845s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.854s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.869s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.691s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.696s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.744s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.791s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.795s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.813s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.824s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.833s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.845s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.859s] -- Looking for pthread.h
+[1.923s] -- Looking for pthread.h - found
+[1.923s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.985s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.986s] -- Found Threads: TRUE  
+[2.180s] -- Found controller_manager: 2.37.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.631s] -- Found webots_ros2_driver: 2023.1.1 (/home/alex/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake)
+[2.666s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.667s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.667s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.617s] -- Configuring done
+[4.712s] -- Generating done
+[4.713s] -- Build files have been written to: /home/alex/ros2_ws/build/webots_ros2_control
+[4.722s] Invoked command in '/home/alex/ros2_ws/build/webots_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/turtlesim:/home/alex/ros2_ws/install/my_robot_interfaces:/home/alex/ros2_ws/install/my_cpp_pkg:/home/alex/rmf_ws/install/rmf_demos_gz_classic:/home/alex/rmf_ws/install/rmf_demos_gz:/home/alex/rmf_ws/install/rmf_demos:/home/alex/rmf_ws/install/rmf_demos_maps:/home/alex/rmf_ws/install/rmf_demos_dashboard_resources:/home/alex/rmf_ws/install/rmf_demos_assets:/home/alex/ros2_ws/install/my_py_pkg:/home/alex/rmf_ws/install/rmf_demos_tasks:/home/alex/rmf_ws/install/rmf_demos_panel:/home/alex/rmf_ws/install/rmf_demos_fleet_adapter:/home/alex/rmf_ws/install/rmf_demos_bridges:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib PYTHONPATH=/home/alex/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/alex/ros2_ws/src/webots_ros2/webots_ros2_control -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/webots_ros2_control
+[4.724s] Invoking command in '/home/alex/ros2_ws/build/webots_ros2_control': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/turtlesim:/home/alex/ros2_ws/install/my_robot_interfaces:/home/alex/ros2_ws/install/my_cpp_pkg:/home/alex/rmf_ws/install/rmf_demos_gz_classic:/home/alex/rmf_ws/install/rmf_demos_gz:/home/alex/rmf_ws/install/rmf_demos:/home/alex/rmf_ws/install/rmf_demos_maps:/home/alex/rmf_ws/install/rmf_demos_dashboard_resources:/home/alex/rmf_ws/install/rmf_demos_assets:/home/alex/ros2_ws/install/my_py_pkg:/home/alex/rmf_ws/install/rmf_demos_tasks:/home/alex/rmf_ws/install/rmf_demos_panel:/home/alex/rmf_ws/install/rmf_demos_fleet_adapter:/home/alex/rmf_ws/install/rmf_demos_bridges:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib PYTHONPATH=/home/alex/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alex/ros2_ws/build/webots_ros2_control -- -j8 -l8
+[4.758s] [ 50%] [32mBuilding CXX object CMakeFiles/webots_ros2_control.dir/src/Ros2Control.cpp.o[0m
+[4.758s] [ 50%] [32mBuilding CXX object CMakeFiles/webots_ros2_control_system.dir/src/Ros2ControlSystem.cpp.o[0m
+[8.285s] [ 75%] [32m[1mLinking CXX shared library libwebots_ros2_control_system.so[0m
+[8.445s] [ 75%] Built target webots_ros2_control_system
+[10.055s] [100%] [32m[1mLinking CXX shared library libwebots_ros2_control.so[0m
+[10.344s] [100%] Built target webots_ros2_control
+[10.355s] Invoked command in '/home/alex/ros2_ws/build/webots_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/turtlesim:/home/alex/ros2_ws/install/my_robot_interfaces:/home/alex/ros2_ws/install/my_cpp_pkg:/home/alex/rmf_ws/install/rmf_demos_gz_classic:/home/alex/rmf_ws/install/rmf_demos_gz:/home/alex/rmf_ws/install/rmf_demos:/home/alex/rmf_ws/install/rmf_demos_maps:/home/alex/rmf_ws/install/rmf_demos_dashboard_resources:/home/alex/rmf_ws/install/rmf_demos_assets:/home/alex/ros2_ws/install/my_py_pkg:/home/alex/rmf_ws/install/rmf_demos_tasks:/home/alex/rmf_ws/install/rmf_demos_panel:/home/alex/rmf_ws/install/rmf_demos_fleet_adapter:/home/alex/rmf_ws/install/rmf_demos_bridges:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib PYTHONPATH=/home/alex/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alex/ros2_ws/build/webots_ros2_control -- -j8 -l8
+[10.372s] Invoking command in '/home/alex/ros2_ws/build/webots_ros2_control': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/turtlesim:/home/alex/ros2_ws/install/my_robot_interfaces:/home/alex/ros2_ws/install/my_cpp_pkg:/home/alex/rmf_ws/install/rmf_demos_gz_classic:/home/alex/rmf_ws/install/rmf_demos_gz:/home/alex/rmf_ws/install/rmf_demos:/home/alex/rmf_ws/install/rmf_demos_maps:/home/alex/rmf_ws/install/rmf_demos_dashboard_resources:/home/alex/rmf_ws/install/rmf_demos_assets:/home/alex/ros2_ws/install/my_py_pkg:/home/alex/rmf_ws/install/rmf_demos_tasks:/home/alex/rmf_ws/install/rmf_demos_panel:/home/alex/rmf_ws/install/rmf_demos_fleet_adapter:/home/alex/rmf_ws/install/rmf_demos_bridges:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib PYTHONPATH=/home/alex/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alex/ros2_ws/build/webots_ros2_control
+[10.376s] -- Install configuration: ""
+[10.377s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/webots_ros2_control.xml
+[10.377s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/webots_ros2_control_system.xml
+[10.377s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/lib/libwebots_ros2_control.so
+[10.378s] -- Set runtime path of "/home/alex/ros2_ws/install/webots_ros2_control/lib/libwebots_ros2_control.so" to ""
+[10.378s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/lib/libwebots_ros2_control_system.so
+[10.379s] -- Set runtime path of "/home/alex/ros2_ws/install/webots_ros2_control/lib/libwebots_ros2_control_system.so" to ""
+[10.379s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/include
+[10.379s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/include/webots_ros2_control
+[10.379s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/include/webots_ros2_control/Ros2ControlSystemInterface.hpp
+[10.379s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/include/webots_ros2_control/Ros2Control.hpp
+[10.379s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/include/webots_ros2_control/Ros2ControlSystem.hpp
+[10.379s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/environment/library_path.sh
+[10.379s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/environment/library_path.dsv
+[10.379s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/ament_index/resource_index/package_run_dependencies/webots_ros2_control
+[10.379s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/ament_index/resource_index/parent_prefix_path/webots_ros2_control
+[10.379s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/environment/ament_prefix_path.sh
+[10.379s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/environment/ament_prefix_path.dsv
+[10.379s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/environment/path.sh
+[10.380s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/environment/path.dsv
+[10.380s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/local_setup.bash
+[10.380s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/local_setup.sh
+[10.380s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/local_setup.zsh
+[10.380s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/local_setup.dsv
+[10.380s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/package.dsv
+[10.380s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/ament_index/resource_index/packages/webots_ros2_control
+[10.380s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/webots_ros2_control
+[10.380s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/ament_index/resource_index/webots_ros2_control__pluginlib__plugin/webots_ros2_control
+[10.380s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.380s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.381s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[10.381s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/webots_ros2_controlConfig.cmake
+[10.381s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/webots_ros2_controlConfig-version.cmake
+[10.381s] -- Installing: /home/alex/ros2_ws/install/webots_ros2_control/share/webots_ros2_control/package.xml
+[10.382s] Invoked command in '/home/alex/ros2_ws/build/webots_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/turtlesim:/home/alex/ros2_ws/install/my_robot_interfaces:/home/alex/ros2_ws/install/my_cpp_pkg:/home/alex/rmf_ws/install/rmf_demos_gz_classic:/home/alex/rmf_ws/install/rmf_demos_gz:/home/alex/rmf_ws/install/rmf_demos:/home/alex/rmf_ws/install/rmf_demos_maps:/home/alex/rmf_ws/install/rmf_demos_dashboard_resources:/home/alex/rmf_ws/install/rmf_demos_assets:/home/alex/ros2_ws/install/my_py_pkg:/home/alex/rmf_ws/install/rmf_demos_tasks:/home/alex/rmf_ws/install/rmf_demos_panel:/home/alex/rmf_ws/install/rmf_demos_fleet_adapter:/home/alex/rmf_ws/install/rmf_demos_bridges:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib PYTHONPATH=/home/alex/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alex/ros2_ws/build/webots_ros2_control

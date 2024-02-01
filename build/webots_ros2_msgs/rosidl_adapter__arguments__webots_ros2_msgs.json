@@ -1,0 +1,17 @@
+{
+  "package_name": "webots_ros2_msgs",
+  "non_idl_tuples": [
+    "/home/alex/ros2_ws/src/webots_ros2/webots_ros2_msgs:msg/BoolStamped.msg",
+    "/home/alex/ros2_ws/src/webots_ros2/webots_ros2_msgs:msg/FloatStamped.msg",
+    "/home/alex/ros2_ws/src/webots_ros2/webots_ros2_msgs:msg/StringStamped.msg",
+    "/home/alex/ros2_ws/src/webots_ros2/webots_ros2_msgs:msg/CameraRecognitionObject.msg",
+    "/home/alex/ros2_ws/src/webots_ros2/webots_ros2_msgs:msg/CameraRecognitionObjects.msg",
+    "/home/alex/ros2_ws/src/webots_ros2/webots_ros2_msgs:msg/UrdfRobot.msg",
+    "/home/alex/ros2_ws/src/webots_ros2/webots_ros2_msgs:msg/PenInkProperties.msg",
+    "/home/alex/ros2_ws/src/webots_ros2/webots_ros2_msgs:srv/EmitterSendString.srv",
+    "/home/alex/ros2_ws/src/webots_ros2/webots_ros2_msgs:srv/GetBool.srv",
+    "/home/alex/ros2_ws/src/webots_ros2/webots_ros2_msgs:srv/SetString.srv",
+    "/home/alex/ros2_ws/src/webots_ros2/webots_ros2_msgs:srv/SpawnNodeFromString.srv",
+    "/home/alex/ros2_ws/src/webots_ros2/webots_ros2_msgs:srv/SpawnUrdfRobot.srv"
+  ]
+}

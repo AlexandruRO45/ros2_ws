@@ -1,0 +1,69 @@
+[2.190s] Invoking command in '/home/alex/ros2_ws/src/webots_ros2/webots_ros2_epuck': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/alex/ros2_ws/install/webots_ros2_control/lib:/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib PYTHONPATH=/home/alex/ros2_ws/build/webots_ros2_epuck/prefix_override:/home/alex/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/alex/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_epuck build --build-base /home/alex/ros2_ws/build/webots_ros2_epuck/build install --record /home/alex/ros2_ws/build/webots_ros2_epuck/install.log --single-version-externally-managed
+[2.647s] running egg_info
+[2.648s] creating ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info
+[2.648s] writing ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/PKG-INFO
+[2.648s] writing dependency_links to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/dependency_links.txt
+[2.649s] writing entry points to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/entry_points.txt
+[2.649s] writing requirements to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/requires.txt
+[2.649s] writing top-level names to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/top_level.txt
+[2.649s] writing manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[2.651s] reading manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[2.652s] writing manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[2.652s] running build
+[2.652s] running build_py
+[2.652s] creating /home/alex/ros2_ws/build/webots_ros2_epuck/build
+[2.652s] creating /home/alex/ros2_ws/build/webots_ros2_epuck/build/lib
+[2.652s] creating /home/alex/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[2.652s] copying webots_ros2_epuck/drive_calibrator.py -> /home/alex/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[2.652s] copying webots_ros2_epuck/simple_mapper.py -> /home/alex/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[2.653s] copying webots_ros2_epuck/epuck_node.py -> /home/alex/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[2.653s] copying webots_ros2_epuck/__init__.py -> /home/alex/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[2.653s] running install
+[2.653s] running install_lib
+[2.654s] creating /home/alex/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[2.654s] copying /home/alex/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/drive_calibrator.py -> /home/alex/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[2.654s] copying /home/alex/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/simple_mapper.py -> /home/alex/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[2.654s] copying /home/alex/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/epuck_node.py -> /home/alex/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[2.655s] copying /home/alex/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/__init__.py -> /home/alex/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[2.656s] byte-compiling /home/alex/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/drive_calibrator.py to drive_calibrator.cpython-310.pyc
+[2.657s] byte-compiling /home/alex/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/simple_mapper.py to simple_mapper.cpython-310.pyc
+[2.658s] byte-compiling /home/alex/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/epuck_node.py to epuck_node.cpython-310.pyc
+[2.658s] byte-compiling /home/alex/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/__init__.py to __init__.cpython-310.pyc
+[2.658s] running install_data
+[2.659s] creating /home/alex/ros2_ws/install/webots_ros2_epuck/share/ament_index
+[2.659s] creating /home/alex/ros2_ws/install/webots_ros2_epuck/share/ament_index/resource_index
+[2.659s] creating /home/alex/ros2_ws/install/webots_ros2_epuck/share/ament_index/resource_index/packages
+[2.659s] copying resource/webots_ros2_epuck -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/ament_index/resource_index/packages
+[2.660s] creating /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[2.660s] copying launch/robot_launch.py -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[2.660s] copying launch/robot_tools_launch.py -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[2.660s] copying launch/rats_life_launch.py -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[2.660s] copying launch/rats_life_waypoints_launch.py -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[2.660s] creating /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[2.661s] copying worlds/epuck_world.wbt -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[2.661s] copying worlds/.epuck_world.wbproj -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[2.661s] copying worlds/rats_life_benchmark.wbt -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[2.661s] copying worlds/.rats_life_benchmark.wbproj -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[2.661s] creating /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/protos
+[2.665s] copying protos/LegoTallInterval.proto -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/protos
+[2.665s] copying protos/LegoTallWall.proto -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/protos
+[2.666s] creating /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[2.666s] copying resource/all.rviz -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[2.666s] copying resource/nav2_params.yaml -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[2.666s] copying resource/nav2_params_iron.yaml -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[2.666s] copying resource/map_rats_life.pgm -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[2.667s] copying resource/map_rats_life.yaml -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[2.667s] copying resource/nav2_rats_life_waypoints.yaml -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[2.667s] copying resource/epuck_world_map.pgm -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[2.667s] copying resource/epuck_world_map.yaml -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[2.667s] copying resource/epuck_webots.urdf -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[2.668s] copying resource/ros2_control.yml -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[2.668s] copying package.xml -> /home/alex/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck
+[2.668s] running install_egg_info
+[2.670s] Copying ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info to /home/alex/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck-2023.1.1-py3.10.egg-info
+[2.672s] running install_scripts
+[2.688s] Installing drive_calibrator script to /home/alex/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[2.688s] Installing epuck_node script to /home/alex/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[2.688s] Installing simple_mapper script to /home/alex/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[2.688s] writing list of installed files to '/home/alex/ros2_ws/build/webots_ros2_epuck/install.log'
+[2.774s] Invoked command in '/home/alex/ros2_ws/src/webots_ros2/webots_ros2_epuck' returned '0': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/alex/ros2_ws/install/webots_ros2_control/lib:/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib PYTHONPATH=/home/alex/ros2_ws/build/webots_ros2_epuck/prefix_override:/home/alex/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/alex/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_epuck build --build-base /home/alex/ros2_ws/build/webots_ros2_epuck/build install --record /home/alex/ros2_ws/build/webots_ros2_epuck/install.log --single-version-externally-managed

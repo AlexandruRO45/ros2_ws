@@ -1,0 +1,1181 @@
+[0.000000] (-) TimerEvent: {}
+[0.000085] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000137] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.000235] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000290] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/alex/ros2_ws/install/my_robot_interfaces')])}
+[0.000308] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.061509] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.099478] (-) TimerEvent: {}
+[0.101995] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.142410] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.143273] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.143321] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/my_robot_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/alex/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'alex'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/alex/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Legion5AS:@/tmp/.ICE-unix/3177,unix/Legion5AS:/tmp/.ICE-unix/3177'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1e5be69e_b43d_4e43_8a6b_27ae0e9104dd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/alex/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/my_robot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/alex/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.145311] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.145690] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.146070] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/alex/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'alex'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/alex/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Legion5AS:@/tmp/.ICE-unix/3177,unix/Legion5AS:/tmp/.ICE-unix/3177'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1e5be69e_b43d_4e43_8a6b_27ae0e9104dd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/alex/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/alex/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.148450] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.148885] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.149174] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/alex/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'alex'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/alex/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Legion5AS:@/tmp/.ICE-unix/3177,unix/Legion5AS:/tmp/.ICE-unix/3177'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1e5be69e_b43d_4e43_8a6b_27ae0e9104dd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/alex/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/alex/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.175316] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.175469] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.175539] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199588] (-) TimerEvent: {}
+[0.299958] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[0.300110] (-) TimerEvent: {}
+[0.300231] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300333] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.300820] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.302102] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.306290] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.325670] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.328259] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.333725] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.334244] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.336199] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.340867] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.342916] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.343973] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.349859] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.356284] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.362407] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400206] (-) TimerEvent: {}
+[0.415149] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.416675] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.470176] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500288] (-) TimerEvent: {}
+[0.509610] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.511186] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.526920] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.559179] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600383] (-) TimerEvent: {}
+[0.614696] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.669748] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.700464] (-) TimerEvent: {}
+[0.702004] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.734994] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.796922] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.800554] (-) TimerEvent: {}
+[0.821594] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.828548] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.855311] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.855650] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.855712] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.856533] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.857943] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.858110] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.858554] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.859500] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.890483] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.892094] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/alex/ros2_ws/build/my_cpp_pkg\n'}
+[0.899255] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900628] (-) TimerEvent: {}
+[0.914907] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[0.915112] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target number_counter\x1b[0m\n'}
+[0.915209] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target smartphone\x1b[0m\n'}
+[0.915297] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[0.916078] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target number_publisher\x1b[0m\n'}
+[0.917075] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_client\x1b[0m\n'}
+[0.923710] (my_robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.928342] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_server\x1b[0m\n'}
+[0.928563] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop\x1b[0m\n'}
+[0.937512] (my_cpp_pkg) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[0.937676] (my_cpp_pkg) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[0.938063] (my_cpp_pkg) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o\x1b[0m\n'}
+[0.940035] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[0.940472] (my_cpp_pkg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o\x1b[0m\n'}
+[0.940996] (my_cpp_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[0.948057] (my_cpp_pkg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[0.949976] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o\x1b[0m\n'}
+[0.950596] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.950747] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.950842] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.961264] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.974764] (my_robot_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.975522] (my_robot_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.977439] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.000722] (-) TimerEvent: {}
+[1.006866] (my_robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.010762] (my_robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/alex/ros2_ws/build/my_robot_interfaces\n'}
+[1.047809] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.055774] (my_robot_interfaces) StdoutLine: {'line': b'[  3%] Built target my_robot_interfaces__cpp\n'}
+[1.059286] (my_robot_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_my_robot_interfaces\n'}
+[1.073229] (my_robot_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.076048] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.077495] (my_robot_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o\x1b[0m\n'}
+[1.095777] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.100811] (-) TimerEvent: {}
+[1.114158] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.131071] (my_robot_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.200901] (-) TimerEvent: {}
+[1.239679] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.257233] (my_robot_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.300993] (-) TimerEvent: {}
+[1.389556] (my_robot_interfaces) StdoutLine: {'line': b'[ 22%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[1.401092] (-) TimerEvent: {}
+[1.437268] (my_robot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.456810] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.457822] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.501189] (-) TimerEvent: {}
+[1.510334] (my_robot_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[1.541285] (my_robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.542301] (my_robot_interfaces) StdoutLine: {'line': b'writing my_robot_interfaces.egg-info/PKG-INFO\n'}
+[1.542520] (my_robot_interfaces) StdoutLine: {'line': b'writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt\n'}
+[1.542740] (my_robot_interfaces) StdoutLine: {'line': b'writing top-level names to my_robot_interfaces.egg-info/top_level.txt\n'}
+[1.552241] (my_robot_interfaces) StdoutLine: {'line': b"reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[1.553008] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[1.557280] (my_robot_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.595501] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.601298] (-) TimerEvent: {}
+[1.637879] (my_robot_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.654405] (my_robot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[1.669343] (my_robot_interfaces) StdoutLine: {'line': b'[ 38%] Built target ament_cmake_python_build_my_robot_interfaces_egg\n'}
+[1.701395] (-) TimerEvent: {}
+[1.709920] (my_robot_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.766366] (my_robot_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.774859] (my_robot_interfaces) StdoutLine: {'line': b'[ 48%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.801492] (-) TimerEvent: {}
+[1.877769] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.878013] (my_robot_interfaces) StdoutLine: {'line': b'[ 51%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[1.878191] (my_robot_interfaces) StdoutLine: {'line': b'[ 54%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[1.901603] (-) TimerEvent: {}
+[1.901860] (my_robot_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.975949] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.001374] (my_robot_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o\x1b[0m\n'}
+[2.001666] (-) TimerEvent: {}
+[2.017920] (my_robot_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.087579] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.101787] (-) TimerEvent: {}
+[2.116395] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.147678] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.147943] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.148116] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.191477] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.201886] (-) TimerEvent: {}
+[2.280069] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[2.285311] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/alex/ros2_ws/build/turtlesim\n'}
+[2.302003] (-) TimerEvent: {}
+[2.325074] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.402096] (-) TimerEvent: {}
+[2.425885] (my_robot_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.454520] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.471772] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[2.502189] (-) TimerEvent: {}
+[2.602564] (-) TimerEvent: {}
+[2.690902] (my_robot_interfaces) StdoutLine: {'line': b'[ 67%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.702653] (-) TimerEvent: {}
+[2.777546] (my_robot_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.802770] (-) TimerEvent: {}
+[2.903160] (-) TimerEvent: {}
+[3.003527] (-) TimerEvent: {}
+[3.037794] (my_robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.103625] (-) TimerEvent: {}
+[3.166413] (my_robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_robot_interfaces\n'}
+[3.203717] (-) TimerEvent: {}
+[3.264566] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[3.265632] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[3.265976] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[3.266268] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[3.275050] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[3.275993] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[3.297850] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_interfaces__py\n'}
+[3.303821] (-) TimerEvent: {}
+[3.358169] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_py\x1b[0m\n'}
+[3.374648] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[3.403914] (-) TimerEvent: {}
+[3.445464] (my_robot_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o\x1b[0m\n'}
+[3.504008] (-) TimerEvent: {}
+[3.604301] (-) TimerEvent: {}
+[3.704610] (-) TimerEvent: {}
+[3.789866] (my_robot_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.804711] (-) TimerEvent: {}
+[3.857770] (my_robot_interfaces) StdoutLine: {'line': b'[ 80%] Built target my_robot_interfaces__rosidl_generator_py\n'}
+[3.870187] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.884545] (my_robot_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.890161] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.894658] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.904808] (-) TimerEvent: {}
+[3.942784] (my_robot_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.969655] (my_robot_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.004914] (-) TimerEvent: {}
+[4.105197] (-) TimerEvent: {}
+[4.109402] (my_robot_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.146661] (my_robot_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.155744] (my_robot_interfaces) StdoutLine: {'line': b'[ 96%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.194286] (my_robot_interfaces) StdoutLine: {'line': b'[ 96%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.205298] (-) TimerEvent: {}
+[4.209864] (my_robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.305396] (-) TimerEvent: {}
+[4.333064] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.389858] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[4.405487] (-) TimerEvent: {}
+[4.505846] (-) TimerEvent: {}
+[4.606163] (-) TimerEvent: {}
+[4.706491] (-) TimerEvent: {}
+[4.806910] (-) TimerEvent: {}
+[4.907314] (-) TimerEvent: {}
+[4.924660] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[4.956604] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.964273] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.973511] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.007413] (-) TimerEvent: {}
+[5.057080] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c\x1b[0m\n'}
+[5.104899] (turtlesim) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[5.107506] (-) TimerEvent: {}
+[5.125626] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[5.142622] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[5.204102] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[5.206488] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[5.207589] (-) TimerEvent: {}
+[5.256616] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[5.318085] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/ros2_ws/build/my_robot_interfaces'], 'cwd': '/home/alex/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'alex'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/alex/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Legion5AS:@/tmp/.ICE-unix/3177,unix/Legion5AS:/tmp/.ICE-unix/3177'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1e5be69e_b43d_4e43_8a6b_27ae0e9104dd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/alex/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/my_robot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/alex/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.318658] (-) TimerEvent: {}
+[5.318931] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[5.349840] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.350226] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[5.350824] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[5.350918] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[5.351009] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[5.351187] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h\n'}
+[5.351296] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h\n'}
+[5.351385] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c\n'}
+[5.351471] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[5.351562] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.351648] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h\n'}
+[5.351734] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[5.351819] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[5.351907] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[5.351993] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""\n'}
+[5.352078] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[5.352162] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[5.352247] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[5.352333] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[5.352490] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.352585] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.352670] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.352750] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[5.352831] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[5.352910] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.352993] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[5.353072] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[5.353149] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[5.353227] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.353342] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.362032] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[5.362605] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[5.362881] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[5.363088] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[5.363280] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[5.363451] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[5.363601] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[5.363785] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[5.363960] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp\n'}
+[5.364187] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[5.364384] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[5.364579] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.364750] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[5.364942] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps\n'}
+[5.365139] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.365677] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.366770] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.367109] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[5.367327] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[5.367514] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[5.367710] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp\n'}
+[5.367885] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.368234] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.368839] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.369227] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.369708] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[5.369950] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[5.370156] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[5.370434] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info\n'}
+[5.370611] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.370894] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.371177] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.371461] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.371804] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces\n'}
+[5.372020] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.372174] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[5.372457] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.372765] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.372948] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.373122] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg\n'}
+[5.373323] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status.py\n'}
+[5.373501] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status_s.c\n'}
+[5.373663] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py\n'}
+[5.373851] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.374138] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.374425] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py\n'}
+[5.418755] (-) TimerEvent: {}
+[5.421853] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[5.422043] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[5.461267] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...\n"}
+[5.461452] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py'...\n"}
+[5.461549] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...\n"}
+[5.476863] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.477449] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.477845] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.478297] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.478651] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.479122] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.479470] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[5.479964] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""\n'}
+[5.480211] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl\n'}
+[5.480431] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg\n'}
+[5.480656] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[5.480875] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[5.481091] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[5.481451] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.481788] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[5.482121] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[5.482447] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[5.482667] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[5.482886] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[5.483100] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[5.483428] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[5.483757] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[5.484039] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.484257] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.484528] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.484749] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.485212] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.485436] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.485721] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.485953] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.486226] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.486508] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.486734] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.487008] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.487225] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.487497] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.487709] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.487990] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[5.488209] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.488428] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.488652] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.488872] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.489110] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.489325] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.489531] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.489804] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.490028] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[5.490212] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[5.490431] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[5.501789] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[5.518854] (-) TimerEvent: {}
+[5.624315] (-) TimerEvent: {}
+[5.673617] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[5.728661] (-) TimerEvent: {}
+[5.821886] (turtlesim) StdoutLine: {'line': b'[ 14%] Built target turtlesim__rosidl_generator_c\n'}
+[5.828748] (-) TimerEvent: {}
+[5.891547] (turtlesim) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.928854] (-) TimerEvent: {}
+[5.934413] (turtlesim) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.950949] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.028955] (-) TimerEvent: {}
+[6.129349] (-) TimerEvent: {}
+[6.229459] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.229653] (-) TimerEvent: {}
+[6.306178] (turtlesim) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[6.324579] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[6.329771] (-) TimerEvent: {}
+[6.347015] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[6.429866] (-) TimerEvent: {}
+[6.468728] (my_cpp_pkg) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[6.529959] (-) TimerEvent: {}
+[6.633825] (-) TimerEvent: {}
+[6.736654] (-) TimerEvent: {}
+[6.836994] (-) TimerEvent: {}
+[6.918414] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[6.919091] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[6.937086] (-) TimerEvent: {}
+[6.984291] (my_cpp_pkg) StdoutLine: {'line': b'[ 56%] Built target cpp_node\n'}
+[7.037356] (-) TimerEvent: {}
+[7.137721] (-) TimerEvent: {}
+[7.174040] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[7.237924] (-) TimerEvent: {}
+[7.289309] (my_cpp_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client\x1b[0m\n'}
+[7.338012] (-) TimerEvent: {}
+[7.438314] (-) TimerEvent: {}
+[7.538876] (-) TimerEvent: {}
+[7.582969] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[7.638973] (-) TimerEvent: {}
+[7.660987] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[7.739070] (-) TimerEvent: {}
+[7.774025] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[7.839163] (-) TimerEvent: {}
+[7.861980] (my_cpp_pkg) StdoutLine: {'line': b'[ 62%] Built target add_two_ints_client\n'}
+[7.939257] (-) TimerEvent: {}
+[7.947129] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[7.956527] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c\x1b[0m\n'}
+[7.997960] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[8.041808] (-) TimerEvent: {}
+[8.047871] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[8.146283] (-) TimerEvent: {}
+[8.177323] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[8.246383] (-) TimerEvent: {}
+[8.248427] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[8.282208] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[8.335074] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[8.346473] (-) TimerEvent: {}
+[8.373667] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[8.421306] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[8.446581] (-) TimerEvent: {}
+[8.471777] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[8.488503] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[8.536865] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[8.546682] (-) TimerEvent: {}
+[8.555748] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[8.614670] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[8.646772] (-) TimerEvent: {}
+[8.692045] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[8.711800] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[8.715890] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[8.746875] (-) TimerEvent: {}
+[8.769834] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[8.846972] (-) TimerEvent: {}
+[8.855906] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[8.880660] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[8.947354] (-) TimerEvent: {}
+[8.984552] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.033862] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[9.047452] (-) TimerEvent: {}
+[9.073973] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[9.115383] (my_cpp_pkg) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client_no_oop\x1b[0m\n'}
+[9.120811] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.148208] (-) TimerEvent: {}
+[9.161994] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.175166] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[9.208365] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/alex/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/alex/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/alex/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'alex', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alex/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/alex', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/alex', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3414', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'alex', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alex', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/alex/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Legion5AS:@/tmp/.ICE-unix/3177,unix/Legion5AS:/tmp/.ICE-unix/3177', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1e5be69e_b43d_4e43_8a6b_27ae0e9104dd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.143', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/alex/ros2_ws/install/my_robot_interfaces:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/alex/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alex/ros2_ws/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/alex/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alex/ros2_ws/build/my_py_pkg/prefix_override:/home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/alex/ros2_ws/install/my_robot_interfaces'}, 'shell': False}
+[9.216483] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[9.218141] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[9.248298] (-) TimerEvent: {}
+[9.348674] (-) TimerEvent: {}
+[9.372163] (turtlesim) StdoutLine: {'line': b'[ 48%] Built target turtlesim__rosidl_typesupport_c\n'}
+[9.390274] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.434759] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[9.448769] (-) TimerEvent: {}
+[9.549494] (-) TimerEvent: {}
+[9.590145] (turtlesim) StdoutLine: {'line': b'[ 50%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[9.649601] (-) TimerEvent: {}
+[9.651991] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[9.688741] (my_cpp_pkg) StdoutLine: {'line': b'[ 68%] Built target add_two_ints_client_no_oop\n'}
+[9.720056] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[9.720315] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[9.720831] (my_py_pkg) StdoutLine: {'line': b'creating ../../build/my_py_pkg/my_py_pkg.egg-info\n'}
+[9.721078] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[9.721320] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[9.721542] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[9.726048] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[9.726298] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[9.726608] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[9.734724] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[9.735828] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[9.736054] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[9.736160] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[9.736375] (my_py_pkg) StdoutLine: {'line': b'creating /home/alex/ros2_ws/build/my_py_pkg/build\n'}
+[9.736517] (my_py_pkg) StdoutLine: {'line': b'creating /home/alex/ros2_ws/build/my_py_pkg/build/lib\n'}
+[9.736648] (my_py_pkg) StdoutLine: {'line': b'creating /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.736779] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/hw_status_publisher.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.736916] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/number_publisher.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.737084] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/template_python_node.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.737265] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/smartphone.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.737442] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/my_first_node.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.737615] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/robot_news_station.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.737795] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_client.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.737972] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_server.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.738151] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.738376] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/number_counter.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.738536] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/__init__.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[9.738963] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[9.740466] (my_py_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.740679] (my_py_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.741064] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[9.744188] (my_py_pkg) StdoutLine: {'line': b'creating /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[9.744419] (my_py_pkg) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/hw_status_publisher.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[9.744566] (my_py_pkg) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[9.745622] (my_py_pkg) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[9.745949] (my_py_pkg) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[9.746124] (my_py_pkg) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[9.746284] (my_py_pkg) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[9.746452] (my_py_pkg) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[9.747451] (my_py_pkg) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[9.748871] (my_py_pkg) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[9.749101] (my_py_pkg) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[9.749241] (my_py_pkg) StdoutLine: {'line': b'copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[9.749660] (-) TimerEvent: {}
+[9.750866] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hw_status_publisher.py to hw_status_publisher.cpython-310.pyc\n'}
+[9.751432] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc\n'}
+[9.751852] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-310.pyc\n'}
+[9.752161] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc\n'}
+[9.752511] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[9.753005] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc\n'}
+[9.753428] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc\n'}
+[9.759105] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc\n'}
+[9.760205] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc\n'}
+[9.760687] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc\n'}
+[9.764563] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[9.764946] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[9.765854] (my_py_pkg) StdoutLine: {'line': b'creating /home/alex/ros2_ws/install/my_py_pkg/share/ament_index\n'}
+[9.766044] (my_py_pkg) StdoutLine: {'line': b'creating /home/alex/ros2_ws/install/my_py_pkg/share/ament_index/resource_index\n'}
+[9.766177] (my_py_pkg) StdoutLine: {'line': b'creating /home/alex/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[9.766316] (my_py_pkg) StdoutLine: {'line': b'copying resource/my_py_pkg -> /home/alex/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[9.766408] (my_py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/alex/ros2_ws/install/my_py_pkg/share/my_py_pkg\n'}
+[9.766497] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.771290] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[9.773296] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[9.840700] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[9.841194] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop = my_py_pkg.add_two_ints_client_no_oop:mainhardware_status_publisher script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[9.841540] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[9.844953] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[9.849553] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[9.849725] (-) TimerEvent: {}
+[9.854639] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[9.856805] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[9.857064] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[9.857168] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[9.857585] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/alex/ros2_ws/build/my_py_pkg/install.log'\n"}
+[9.900890] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.950151] (my_py_pkg) CommandEnded: {'returncode': 0}
+[9.950628] (-) TimerEvent: {}
+[9.962268] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_server\x1b[0m\n'}
+[10.050736] (-) TimerEvent: {}
+[10.122900] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[10.150865] (-) TimerEvent: {}
+[10.186413] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[10.250973] (-) TimerEvent: {}
+[10.352248] (-) TimerEvent: {}
+[10.452672] (-) TimerEvent: {}
+[10.491950] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[10.518506] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[10.552801] (-) TimerEvent: {}
+[10.555212] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[10.557216] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[10.563461] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[10.565404] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.616236] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target add_two_ints_server\n'}
+[10.627846] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[10.642883] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[10.652895] (-) TimerEvent: {}
+[10.723100] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[10.753003] (-) TimerEvent: {}
+[10.853342] (-) TimerEvent: {}
+[10.946371] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[10.953444] (-) TimerEvent: {}
+[11.003474] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[11.053560] (-) TimerEvent: {}
+[11.153900] (-) TimerEvent: {}
+[11.159580] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.254006] (-) TimerEvent: {}
+[11.275137] (turtlesim) StdoutLine: {'line': b'[ 65%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[11.290780] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[11.313681] (my_cpp_pkg) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[11.323794] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_teleop_key\x1b[0m\n'}
+[11.327660] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[11.354102] (-) TimerEvent: {}
+[11.397868] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[11.404371] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[11.454201] (-) TimerEvent: {}
+[11.506006] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[11.554320] (-) TimerEvent: {}
+[11.654696] (-) TimerEvent: {}
+[11.684873] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[11.754797] (-) TimerEvent: {}
+[11.855110] (-) TimerEvent: {}
+[11.955590] (-) TimerEvent: {}
+[12.016522] (my_cpp_pkg) StdoutLine: {'line': b'[ 81%] Built target robot_news_station\n'}
+[12.025519] (my_cpp_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable number_publisher\x1b[0m\n'}
+[12.055693] (-) TimerEvent: {}
+[12.138107] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_square\x1b[0m\n'}
+[12.155794] (-) TimerEvent: {}
+[12.164457] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[12.193403] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[12.204516] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimic\x1b[0m\n'}
+[12.206522] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.218331] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[12.255892] (-) TimerEvent: {}
+[12.258087] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[12.355998] (-) TimerEvent: {}
+[12.357983] (my_cpp_pkg) StdoutLine: {'line': b'[ 87%] Built target number_publisher\n'}
+[12.380394] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[12.390463] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[12.456099] (-) TimerEvent: {}
+[12.556508] (-) TimerEvent: {}
+[12.656892] (-) TimerEvent: {}
+[12.757196] (-) TimerEvent: {}
+[12.778448] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.857294] (-) TimerEvent: {}
+[12.885648] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[12.908175] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim\n'}
+[12.931702] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.957394] (-) TimerEvent: {}
+[13.057687] (-) TimerEvent: {}
+[13.158011] (-) TimerEvent: {}
+[13.259994] (-) TimerEvent: {}
+[13.360288] (-) TimerEvent: {}
+[13.460683] (-) TimerEvent: {}
+[13.560996] (-) TimerEvent: {}
+[13.661313] (-) TimerEvent: {}
+[13.761615] (-) TimerEvent: {}
+[13.861992] (-) TimerEvent: {}
+[13.962290] (-) TimerEvent: {}
+[14.062662] (-) TimerEvent: {}
+[14.163030] (-) TimerEvent: {}
+[14.263755] (-) TimerEvent: {}
+[14.364045] (-) TimerEvent: {}
+[14.464421] (-) TimerEvent: {}
+[14.564822] (-) TimerEvent: {}
+[14.665224] (-) TimerEvent: {}
+[14.765501] (-) TimerEvent: {}
+[14.865788] (-) TimerEvent: {}
+[14.966074] (-) TimerEvent: {}
+[15.066423] (-) TimerEvent: {}
+[15.166719] (-) TimerEvent: {}
+[15.266990] (-) TimerEvent: {}
+[15.367282] (-) TimerEvent: {}
+[15.468431] (-) TimerEvent: {}
+[15.568743] (-) TimerEvent: {}
+[15.669024] (-) TimerEvent: {}
+[15.769313] (-) TimerEvent: {}
+[15.869616] (-) TimerEvent: {}
+[15.969911] (-) TimerEvent: {}
+[16.070222] (-) TimerEvent: {}
+[16.170537] (-) TimerEvent: {}
+[16.270933] (-) TimerEvent: {}
+[16.371216] (-) TimerEvent: {}
+[16.471608] (-) TimerEvent: {}
+[16.571912] (-) TimerEvent: {}
+[16.672236] (-) TimerEvent: {}
+[16.772529] (-) TimerEvent: {}
+[16.858082] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__py\n'}
+[16.872630] (-) TimerEvent: {}
+[16.917336] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py\x1b[0m\n'}
+[16.972730] (-) TimerEvent: {}
+[16.987757] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[17.072829] (-) TimerEvent: {}
+[17.173232] (-) TimerEvent: {}
+[17.273582] (-) TimerEvent: {}
+[17.321436] (turtlesim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[17.373685] (-) TimerEvent: {}
+[17.473989] (-) TimerEvent: {}
+[17.574291] (-) TimerEvent: {}
+[17.673956] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[17.674362] (-) TimerEvent: {}
+[17.767675] (my_cpp_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable number_counter\x1b[0m\n'}
+[17.774474] (-) TimerEvent: {}
+[17.874862] (-) TimerEvent: {}
+[17.961216] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[17.974968] (-) TimerEvent: {}
+[18.075549] (-) TimerEvent: {}
+[18.176038] (-) TimerEvent: {}
+[18.276516] (-) TimerEvent: {}
+[18.298716] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[18.310531] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[18.376602] (-) TimerEvent: {}
+[18.476965] (-) TimerEvent: {}
+[18.570738] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[18.577063] (-) TimerEvent: {}
+[18.677453] (-) TimerEvent: {}
+[18.746047] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target number_counter\n'}
+[18.777556] (-) TimerEvent: {}
+[18.877897] (-) TimerEvent: {}
+[18.882053] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[18.977999] (-) TimerEvent: {}
+[19.078302] (-) TimerEvent: {}
+[19.167840] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[19.178400] (-) TimerEvent: {}
+[19.180386] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[19.189088] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[19.278494] (-) TimerEvent: {}
+[19.347803] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[19.378591] (-) TimerEvent: {}
+[19.397785] (turtlesim) StdoutLine: {'line': b'[ 88%] Built target turtlesim__rosidl_generator_py\n'}
+[19.406824] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[19.406901] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/alex/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'alex'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/alex/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Legion5AS:@/tmp/.ICE-unix/3177,unix/Legion5AS:/tmp/.ICE-unix/3177'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1e5be69e_b43d_4e43_8a6b_27ae0e9104dd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/alex/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/alex/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.410964] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[19.422291] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.422461] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[19.422547] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""\n'}
+[19.422625] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[19.422699] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""\n'}
+[19.422774] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[19.422874] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""\n'}
+[19.422947] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher\n'}
+[19.423153] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""\n'}
+[19.423396] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter\n'}
+[19.426014] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[19.435301] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""\n'}
+[19.435631] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[19.436658] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""\n'}
+[19.436939] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client\n'}
+[19.438222] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""\n'}
+[19.438514] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[19.439448] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""\n'}
+[19.439827] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[19.440189] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[19.440523] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[19.440783] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[19.441034] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[19.441298] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[19.441594] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[19.441930] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[19.442197] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[19.442490] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[19.442804] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[19.444600] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[19.445052] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[19.445401] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[19.445665] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[19.445971] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[19.457840] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[19.478734] (-) TimerEvent: {}
+[19.546130] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[19.578844] (-) TimerEvent: {}
+[19.640382] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.678941] (-) TimerEvent: {}
+[19.687288] (turtlesim) StdoutLine: {'line': b'[ 91%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[19.700215] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[19.716151] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[19.779202] (-) TimerEvent: {}
+[19.844895] (turtlesim) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.879313] (-) TimerEvent: {}
+[19.956087] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.962539] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.981682] (-) TimerEvent: {}
+[20.006068] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[20.015954] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[20.081789] (-) TimerEvent: {}
+[20.182065] (-) TimerEvent: {}
+[20.282410] (-) TimerEvent: {}
+[20.382706] (-) TimerEvent: {}
+[20.483083] (-) TimerEvent: {}
+[20.583371] (-) TimerEvent: {}
+[20.683647] (-) TimerEvent: {}
+[20.783933] (-) TimerEvent: {}
+[20.884217] (-) TimerEvent: {}
+[20.912559] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[20.984326] (-) TimerEvent: {}
+[21.084639] (-) TimerEvent: {}
+[21.136688] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtle_teleop_key\n'}
+[21.184747] (-) TimerEvent: {}
+[21.285038] (-) TimerEvent: {}
+[21.385317] (-) TimerEvent: {}
+[21.485596] (-) TimerEvent: {}
+[21.585886] (-) TimerEvent: {}
+[21.686154] (-) TimerEvent: {}
+[21.786460] (-) TimerEvent: {}
+[21.886737] (-) TimerEvent: {}
+[21.987020] (-) TimerEvent: {}
+[22.087292] (-) TimerEvent: {}
+[22.187562] (-) TimerEvent: {}
+[22.287834] (-) TimerEvent: {}
+[22.388111] (-) TimerEvent: {}
+[22.488391] (-) TimerEvent: {}
+[22.588675] (-) TimerEvent: {}
+[22.688961] (-) TimerEvent: {}
+[22.789240] (-) TimerEvent: {}
+[22.889574] (-) TimerEvent: {}
+[22.989873] (-) TimerEvent: {}
+[23.090151] (-) TimerEvent: {}
+[23.190423] (-) TimerEvent: {}
+[23.290695] (-) TimerEvent: {}
+[23.390964] (-) TimerEvent: {}
+[23.491248] (-) TimerEvent: {}
+[23.591514] (-) TimerEvent: {}
+[23.691781] (-) TimerEvent: {}
+[23.792049] (-) TimerEvent: {}
+[23.892315] (-) TimerEvent: {}
+[23.991956] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[23.992380] (-) TimerEvent: {}
+[24.092604] (-) TimerEvent: {}
+[24.148523] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[24.192702] (-) TimerEvent: {}
+[24.292981] (-) TimerEvent: {}
+[24.374519] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target mimic\n'}
+[24.393062] (-) TimerEvent: {}
+[24.493288] (-) TimerEvent: {}
+[24.547254] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target draw_square\n'}
+[24.593374] (-) TimerEvent: {}
+[24.693576] (-) TimerEvent: {}
+[24.793786] (-) TimerEvent: {}
+[24.894006] (-) TimerEvent: {}
+[24.994209] (-) TimerEvent: {}
+[25.094412] (-) TimerEvent: {}
+[25.194619] (-) TimerEvent: {}
+[25.294842] (-) TimerEvent: {}
+[25.395047] (-) TimerEvent: {}
+[25.495275] (-) TimerEvent: {}
+[25.595570] (-) TimerEvent: {}
+[25.695833] (-) TimerEvent: {}
+[25.796096] (-) TimerEvent: {}
+[25.896363] (-) TimerEvent: {}
+[25.996625] (-) TimerEvent: {}
+[26.096903] (-) TimerEvent: {}
+[26.175419] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[26.197031] (-) TimerEvent: {}
+[26.297289] (-) TimerEvent: {}
+[26.397527] (-) TimerEvent: {}
+[26.497859] (-) TimerEvent: {}
+[26.598209] (-) TimerEvent: {}
+[26.698565] (-) TimerEvent: {}
+[26.798876] (-) TimerEvent: {}
+[26.899205] (-) TimerEvent: {}
+[26.999554] (-) TimerEvent: {}
+[27.099826] (-) TimerEvent: {}
+[27.200130] (-) TimerEvent: {}
+[27.300468] (-) TimerEvent: {}
+[27.400794] (-) TimerEvent: {}
+[27.501057] (-) TimerEvent: {}
+[27.601318] (-) TimerEvent: {}
+[27.701657] (-) TimerEvent: {}
+[27.801974] (-) TimerEvent: {}
+[27.902204] (-) TimerEvent: {}
+[28.002431] (-) TimerEvent: {}
+[28.102672] (-) TimerEvent: {}
+[28.202908] (-) TimerEvent: {}
+[28.275241] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[28.287257] (turtlesim) CommandEnded: {'returncode': 0}
+[28.302977] (-) TimerEvent: {}
+[28.398916] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[28.399130] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/ros2_ws/build/turtlesim'], 'cwd': '/home/alex/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'alex'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/alex/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Legion5AS:@/tmp/.ICE-unix/3177,unix/Legion5AS:/tmp/.ICE-unix/3177'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1e5be69e_b43d_4e43_8a6b_27ae0e9104dd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/alex/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ros2_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/alex/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[28.403048] (-) TimerEvent: {}
+[28.405361] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.405541] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[28.405691] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[28.405860] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[28.405996] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[28.406155] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[28.406291] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[28.406398] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[28.406498] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[28.406595] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[28.406769] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[28.406875] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[28.406973] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[28.407071] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[28.407167] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[28.407262] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[28.407360] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[28.407456] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[28.407551] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[28.407653] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[28.407757] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[28.407938] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[28.408042] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[28.408141] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[28.408249] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[28.408350] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[28.408453] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[28.408548] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[28.408644] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[28.408746] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[28.408865] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[28.409016] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[28.409110] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[28.409228] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[28.409325] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[28.409442] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[28.409550] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[28.409658] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[28.409749] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[28.409868] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[28.409981] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[28.410117] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[28.410200] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[28.410305] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[28.410389] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[28.410470] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[28.410568] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[28.410660] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[28.410740] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[28.410838] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[28.410920] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[28.411036] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[28.411144] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[28.411516] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[28.411628] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[28.411703] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[28.411755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[28.411823] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[28.411912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[28.412009] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[28.412095] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[28.412149] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[28.412244] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[28.412409] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[28.412467] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[28.412519] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[28.412570] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[28.412619] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[28.412691] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[28.412755] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[28.412806] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[28.412907] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[28.413017] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[28.413105] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[28.413208] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[28.413302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[28.413404] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[28.413503] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[28.413585] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[28.413659] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[28.413711] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[28.413866] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[28.413959] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[28.414031] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[28.414092] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[28.414147] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[28.414252] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[28.414312] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[28.414364] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[28.414413] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[28.414462] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[28.414519] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[28.414627] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[28.414727] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[28.414794] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[28.414858] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[28.414951] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[28.415046] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[28.415118] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[28.415181] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[28.415242] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[28.415302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[28.415363] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[28.415423] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[28.415523] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[28.415640] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[28.415752] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[28.415873] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[28.415950] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[28.416031] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[28.416188] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[28.416262] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[28.416327] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[28.416395] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[28.416449] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[28.416501] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.416622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[28.416702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[28.416807] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.416884] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[28.417060] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.417129] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.417191] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.417343] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.417400] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[28.417471] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[28.417535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[28.417583] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[28.417703] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.417887] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.418015] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[28.418133] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[28.418246] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[28.418337] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[28.418453] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[28.418557] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[28.418659] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[28.418763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[28.418846] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[28.418963] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[28.419084] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[28.419193] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[28.419281] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[28.419369] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[28.419478] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[28.419568] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[28.419682] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[28.419749] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[28.419875] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[28.419959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[28.420026] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[28.420080] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[28.420132] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[28.420208] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[28.420288] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[28.420359] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[28.420505] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[28.420586] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[28.420654] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[28.420778] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[28.420850] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[28.420948] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[28.421037] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[28.421131] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.421206] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[28.421297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[28.421380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[28.421474] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[28.421624] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.421744] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[28.421836] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[28.421922] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.422010] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.422063] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.422143] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[28.422223] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[28.422274] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.422334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[28.422381] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[28.422439] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[28.422505] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.422573] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.422637] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[28.422714] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[28.422879] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[28.422955] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[28.423039] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[28.423129] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[28.423205] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[28.423320] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[28.423388] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[28.423478] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[28.423585] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[28.423695] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[28.423758] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[28.423834] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[28.423916] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.424006] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[28.424225] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[28.424336] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[28.424426] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[28.424554] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[28.424662] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[28.424753] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[28.424851] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[28.424945] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[28.424998] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[28.425078] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[28.425135] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[28.425229] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[28.425279] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[28.425361] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[28.425455] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[28.425581] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[28.425665] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[28.425775] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.425888] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[28.425976] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[28.426090] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[28.426228] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[28.426307] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[28.426360] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[28.426435] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[28.426509] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.426591] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[28.473652] (turtlesim) StdoutLine: {'line': b"Listing '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[28.473816] (turtlesim) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[28.473879] (turtlesim) StdoutLine: {'line': b"Listing '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[28.473929] (turtlesim) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[28.473978] (turtlesim) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[28.474024] (turtlesim) StdoutLine: {'line': b"Listing '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[28.474069] (turtlesim) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[28.474114] (turtlesim) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[28.474159] (turtlesim) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[28.474204] (turtlesim) StdoutLine: {'line': b"Listing '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[28.474254] (turtlesim) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[28.474300] (turtlesim) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[28.474344] (turtlesim) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[28.474395] (turtlesim) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[28.474439] (turtlesim) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[28.474483] (turtlesim) StdoutLine: {'line': b"Compiling '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[28.477281] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.477550] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[28.477720] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.477990] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[28.478160] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.478429] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[28.478537] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[28.478791] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[28.478904] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[28.479053] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[28.479175] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[28.479321] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[28.479449] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[28.479571] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[28.479693] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[28.479814] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[28.479935] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[28.480056] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[28.480178] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[28.480299] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[28.480419] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[28.480541] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[28.480654] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[28.480781] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[28.480899] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[28.481022] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[28.481144] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[28.481264] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[28.481388] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[28.481512] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[28.481635] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[28.481777] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[28.481896] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[28.482017] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[28.482176] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[28.487186] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[28.487345] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[28.488293] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[28.488408] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[28.490768] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[28.490885] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[28.493115] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/alex/ros2_ws/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[28.493258] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/images\n'}
+[28.493359] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[28.493444] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[28.493538] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[28.493633] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[28.493733] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[28.493832] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[28.493928] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[28.494021] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[28.494113] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[28.494218] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/launch\n'}
+[28.494327] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[28.494449] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[28.494600] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[28.494726] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[28.494847] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[28.494971] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[28.495092] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[28.495210] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[28.495335] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[28.495459] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[28.495576] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[28.495693] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[28.495840] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[28.496004] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[28.496127] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[28.496261] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[28.496390] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[28.496523] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[28.496656] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[28.496783] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[28.496915] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[28.497042] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[28.497180] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[28.497308] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[28.497440] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[28.497567] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[28.497704] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[28.497876] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[28.498009] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[28.498134] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[28.498257] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[28.498381] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[28.498508] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.498629] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.498755] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[28.498875] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[28.499000] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[28.499121] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[28.499222] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[28.499348] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[28.500914] (turtlesim) CommandEnded: {'returncode': 0}
+[28.503113] (-) TimerEvent: {}
+[28.603272] (-) TimerEvent: {}
+[28.703566] (-) TimerEvent: {}
+[28.763929] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[28.764493] (-) EventReactorShutdown: {}

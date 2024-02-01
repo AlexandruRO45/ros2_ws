@@ -1,0 +1,45 @@
+[2.126s] Invoking command in '/home/alex/ros2_ws/src/webots_ros2/webots_ros2_tiago': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/alex/ros2_ws/install/webots_ros2_control/lib:/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib PYTHONPATH=/home/alex/ros2_ws/build/webots_ros2_tiago/prefix_override:/home/alex/ros2_ws/install/webots_ros2_tiago/lib/python3.10/site-packages:/home/alex/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_tiago build --build-base /home/alex/ros2_ws/build/webots_ros2_tiago/build install --record /home/alex/ros2_ws/build/webots_ros2_tiago/install.log --single-version-externally-managed
+[2.466s] running egg_info
+[2.467s] creating ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info
+[2.467s] writing ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/PKG-INFO
+[2.467s] writing dependency_links to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/dependency_links.txt
+[2.468s] writing entry points to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/entry_points.txt
+[2.468s] writing requirements to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/requires.txt
+[2.468s] writing top-level names to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/top_level.txt
+[2.468s] writing manifest file '../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/SOURCES.txt'
+[2.469s] reading manifest file '../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/SOURCES.txt'
+[2.470s] writing manifest file '../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/SOURCES.txt'
+[2.470s] running build
+[2.471s] running install
+[2.471s] running install_data
+[2.472s] creating /home/alex/ros2_ws/install/webots_ros2_tiago/share/ament_index
+[2.472s] creating /home/alex/ros2_ws/install/webots_ros2_tiago/share/ament_index/resource_index
+[2.472s] creating /home/alex/ros2_ws/install/webots_ros2_tiago/share/ament_index/resource_index/packages
+[2.472s] copying resource/webots_ros2_tiago -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/ament_index/resource_index/packages
+[2.472s] creating /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/launch
+[2.472s] copying launch/robot_launch.py -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/launch
+[2.473s] copying launch/robot_bringup_launch.py -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/launch
+[2.473s] creating /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[2.473s] copying resource/tiago_webots.urdf -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[2.473s] copying resource/tiago_bringup_webots.urdf -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[2.473s] copying resource/ros2_control.yml -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[2.473s] copying resource/ros2_control_bringup.yml -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[2.474s] copying resource/nav2_params.yaml -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[2.474s] copying resource/nav2_params_iron.yaml -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[2.474s] copying resource/default.rviz -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[2.474s] copying resource/default_bringup.rviz -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[2.474s] copying resource/map.pgm -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[2.474s] copying resource/map.yaml -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[2.474s] copying resource/cartographer.lua -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[2.475s] copying resource/slam_toolbox_params.yaml -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[2.475s] copying package.xml -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago
+[2.475s] creating /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+[2.475s] copying worlds/default.wbt -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+[2.475s] copying worlds/.default.wbproj -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+[2.475s] copying worlds/default_bringup.wbt -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+[2.475s] copying worlds/.default_bringup.wbproj -> /home/alex/ros2_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+[2.476s] running install_egg_info
+[2.478s] Copying ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info to /home/alex/ros2_ws/install/webots_ros2_tiago/lib/python3.10/site-packages/webots_ros2_tiago-2023.1.1-py3.10.egg-info
+[2.479s] running install_scripts
+[2.503s] writing list of installed files to '/home/alex/ros2_ws/build/webots_ros2_tiago/install.log'
+[2.606s] Invoked command in '/home/alex/ros2_ws/src/webots_ros2/webots_ros2_tiago' returned '0': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/alex/ros2_ws/install/webots_ros2_control/lib:/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib PYTHONPATH=/home/alex/ros2_ws/build/webots_ros2_tiago/prefix_override:/home/alex/ros2_ws/install/webots_ros2_tiago/lib/python3.10/site-packages:/home/alex/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_tiago build --build-base /home/alex/ros2_ws/build/webots_ros2_tiago/build install --record /home/alex/ros2_ws/build/webots_ros2_tiago/install.log --single-version-externally-managed

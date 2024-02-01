@@ -1,0 +1,47 @@
+[1.997s] Invoking command in '/home/alex/ros2_ws/src/webots_ros2/webots_ros2_turtlebot': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/alex/ros2_ws/install/webots_ros2_control/lib:/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib PYTHONPATH=/home/alex/ros2_ws/build/webots_ros2_turtlebot/prefix_override:/home/alex/ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/alex/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_turtlebot build --build-base /home/alex/ros2_ws/build/webots_ros2_turtlebot/build install --record /home/alex/ros2_ws/build/webots_ros2_turtlebot/install.log --single-version-externally-managed
+[2.342s] running egg_info
+[2.342s] creating ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info
+[2.342s] writing ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/PKG-INFO
+[2.342s] writing dependency_links to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/dependency_links.txt
+[2.343s] writing entry points to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/entry_points.txt
+[2.343s] writing requirements to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/requires.txt
+[2.343s] writing top-level names to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/top_level.txt
+[2.343s] writing manifest file '../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[2.345s] reading manifest file '../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[2.346s] writing manifest file '../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[2.346s] running build
+[2.346s] running build_py
+[2.346s] creating /home/alex/ros2_ws/build/webots_ros2_turtlebot/build
+[2.346s] creating /home/alex/ros2_ws/build/webots_ros2_turtlebot/build/lib
+[2.347s] creating /home/alex/ros2_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[2.347s] copying webots_ros2_turtlebot/plugin_example.py -> /home/alex/ros2_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[2.347s] copying webots_ros2_turtlebot/__init__.py -> /home/alex/ros2_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[2.347s] running install
+[2.347s] running install_lib
+[2.348s] creating /home/alex/ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot
+[2.348s] copying /home/alex/ros2_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot/plugin_example.py -> /home/alex/ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot
+[2.348s] copying /home/alex/ros2_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot/__init__.py -> /home/alex/ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot
+[2.349s] byte-compiling /home/alex/ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot/plugin_example.py to plugin_example.cpython-310.pyc
+[2.349s] byte-compiling /home/alex/ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot/__init__.py to __init__.cpython-310.pyc
+[2.349s] running install_data
+[2.350s] creating /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/ament_index
+[2.350s] creating /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/ament_index/resource_index
+[2.350s] creating /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages
+[2.351s] copying resource/webots_ros2_turtlebot -> /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages
+[2.351s] creating /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch
+[2.351s] copying launch/robot_launch.py -> /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch
+[2.351s] creating /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.351s] copying resource/turtlebot3_burger_example_map.pgm -> /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.351s] copying resource/turtlebot3_burger_example_map.yaml -> /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.352s] copying resource/turtlebot_webots.urdf -> /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.352s] copying resource/ros2control.yml -> /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.352s] copying resource/nav2_params.yaml -> /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[2.352s] creating /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[2.352s] copying worlds/turtlebot3_burger_example.wbt -> /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[2.352s] copying worlds/.turtlebot3_burger_example.wbproj -> /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[2.352s] copying package.xml -> /home/alex/ros2_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot
+[2.353s] running install_egg_info
+[2.354s] Copying ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info to /home/alex/ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot-2023.1.1-py3.10.egg-info
+[2.355s] running install_scripts
+[2.379s] writing list of installed files to '/home/alex/ros2_ws/build/webots_ros2_turtlebot/install.log'
+[2.409s] Invoked command in '/home/alex/ros2_ws/src/webots_ros2/webots_ros2_turtlebot' returned '0': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/alex/ros2_ws/install/webots_ros2_control/lib:/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib PYTHONPATH=/home/alex/ros2_ws/build/webots_ros2_turtlebot/prefix_override:/home/alex/ros2_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/alex/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_turtlebot build --build-base /home/alex/ros2_ws/build/webots_ros2_turtlebot/build install --record /home/alex/ros2_ws/build/webots_ros2_turtlebot/install.log --single-version-externally-managed

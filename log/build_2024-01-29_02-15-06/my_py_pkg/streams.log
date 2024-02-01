@@ -1,0 +1,73 @@
+[2.290s] Invoking command in '/home/alex/ros2_ws/src/my_py_pkg': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/alex/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/ros2_ws/build/my_py_pkg/prefix_override:/home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/alex/ros2_ws/build/my_py_pkg/build install --record /home/alex/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.801s] running egg_info
+[2.802s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[2.802s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.802s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.803s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.807s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.807s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.808s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.816s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.817s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.817s] running build
+[2.817s] running build_py
+[2.817s] creating /home/alex/ros2_ws/build/my_py_pkg/build
+[2.818s] creating /home/alex/ros2_ws/build/my_py_pkg/build/lib
+[2.818s] creating /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.818s] copying my_py_pkg/hw_status_publisher.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.818s] copying my_py_pkg/number_publisher.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.818s] copying my_py_pkg/template_python_node.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.818s] copying my_py_pkg/smartphone.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.818s] copying my_py_pkg/my_first_node.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.819s] copying my_py_pkg/robot_news_station.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.819s] copying my_py_pkg/add_two_ints_client.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.819s] copying my_py_pkg/add_two_ints_server.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.819s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.819s] copying my_py_pkg/number_counter.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.819s] copying my_py_pkg/__init__.py -> /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.820s] running install
+[2.822s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.822s]   warnings.warn(
+[2.822s] running install_lib
+[2.825s] creating /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.825s] copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/hw_status_publisher.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.826s] copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.827s] copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.827s] copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.827s] copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.827s] copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.827s] copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.828s] copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.830s] copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.830s] copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.830s] copying /home/alex/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.832s] byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hw_status_publisher.py to hw_status_publisher.cpython-310.pyc
+[2.832s] byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[2.833s] byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-310.pyc
+[2.833s] byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[2.833s] byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[2.834s] byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[2.834s] byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[2.840s] byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[2.841s] byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[2.842s] byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc
+[2.846s] byte-compiling /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[2.846s] running install_data
+[2.847s] creating /home/alex/ros2_ws/install/my_py_pkg/share/ament_index
+[2.847s] creating /home/alex/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[2.847s] creating /home/alex/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.847s] copying resource/my_py_pkg -> /home/alex/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.847s] copying package.xml -> /home/alex/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.847s] running install_egg_info
+[2.852s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.854s] running install_scripts
+[2.922s] Installing add_two_ints_client script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.922s] Installing add_two_ints_client_no_oop = my_py_pkg.add_two_ints_client_no_oop:mainhardware_status_publisher script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.923s] Installing add_two_ints_server script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.926s] Installing number_counter script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.931s] Installing number_publisher script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.938s] Installing py_node script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.938s] Installing robot_news_station script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.938s] Installing smartphone script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.939s] writing list of installed files to '/home/alex/ros2_ws/build/my_py_pkg/install.log'
+[3.031s] Invoked command in '/home/alex/ros2_ws/src/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/alex/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/alex/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/ros2_ws/build/my_py_pkg/prefix_override:/home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/alex/ros2_ws/build/my_py_pkg/build install --record /home/alex/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

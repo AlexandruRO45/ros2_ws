@@ -1,0 +1,36 @@
+[0.651s] Invoking command in '/home/alex/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/my_py_pkg:/home/alex/rmf_ws/install/rmf_demos_tasks:/home/alex/rmf_ws/install/rmf_demos_panel:/home/alex/rmf_ws/install/rmf_demos_fleet_adapter:/home/alex/rmf_ws/install/rmf_demos_bridges:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.757s] [ 12%] Built target cpp_node
+[0.761s] [ 25%] Built target smartphone
+[0.767s] [ 62%] Built target robot_news_station
+[0.767s] [ 62%] Built target number_counter
+[0.768s] [ 62%] Built target number_publisher
+[0.777s] [ 87%] Built target add_two_ints_client
+[0.777s] [ 87%] Built target add_two_ints_client_no_oop
+[0.778s] [100%] Built target add_two_ints_server
+[0.824s] Invoked command in '/home/alex/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/my_py_pkg:/home/alex/rmf_ws/install/rmf_demos_tasks:/home/alex/rmf_ws/install/rmf_demos_panel:/home/alex/rmf_ws/install/rmf_demos_fleet_adapter:/home/alex/rmf_ws/install/rmf_demos_bridges:/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.926s] Invoking command in '/home/alex/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/my_py_pkg:/home/alex/rmf_ws/install/rmf_demos_tasks:/home/alex/rmf_ws/install/rmf_demos_panel:/home/alex/rmf_ws/install/rmf_demos_fleet_adapter:/home/alex/rmf_ws/install/rmf_demos_bridges:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/my_cpp_pkg
+[0.936s] -- Install configuration: ""
+[0.937s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[0.937s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[0.938s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[0.938s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[0.938s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[0.939s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[0.939s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[0.940s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[0.940s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[0.941s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[0.941s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[0.941s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[0.942s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[0.942s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[0.942s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[0.942s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[0.942s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[0.943s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[0.943s] -- Installing: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[0.943s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[0.944s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[0.944s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[0.944s] -- Up-to-date: /home/alex/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[0.953s] Invoked command in '/home/alex/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alex/ros2_ws/install/my_py_pkg:/home/alex/rmf_ws/install/rmf_demos_tasks:/home/alex/rmf_ws/install/rmf_demos_panel:/home/alex/rmf_ws/install/rmf_demos_fleet_adapter:/home/alex/rmf_ws/install/rmf_demos_bridges:/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/build/my_cpp_pkg

@@ -1,0 +1,751 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001258] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.001324] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001499] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/alex/ros2_ws/install/my_robot_interfaces')])}
+[0.001565] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.050221] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.099712] (-) TimerEvent: {}
+[0.105118] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.156298] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.157805] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.157885] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/my_robot_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/alex/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('GIT_ASKPASS', '/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:/home/alex/ros2_ws/install/turtlesim/lib:/home/alex/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/alex'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e4380303-be56-4ced-abb2-8677a6709af4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alex/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('NAME', 'Legion5AS'), ('WSL_INTEROP', '/run/WSL/46284_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.3/bin:/usr/local/cuda-12.3/bin:/usr/local/cuda-12.3/bin:/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/opt/ros/humble/bin:/home/alex/anaconda3/condabin:/usr/local/cuda-12.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/MATLAB/R2023b/bin:/mnt/c/Users/savaa/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5993cd4b60.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/alex/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/alex/ros2_ws/build/my_robot_interfaces'), ('CONDA_EXE', '/home/alex/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.160766] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.161400] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.162413] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/alex/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('GIT_ASKPASS', '/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:/home/alex/ros2_ws/install/turtlesim/lib:/home/alex/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/alex'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e4380303-be56-4ced-abb2-8677a6709af4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alex/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('NAME', 'Legion5AS'), ('WSL_INTEROP', '/run/WSL/46284_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.3/bin:/usr/local/cuda-12.3/bin:/usr/local/cuda-12.3/bin:/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/opt/ros/humble/bin:/home/alex/anaconda3/condabin:/usr/local/cuda-12.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/MATLAB/R2023b/bin:/mnt/c/Users/savaa/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5993cd4b60.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/alex/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/alex/ros2_ws/build/my_cpp_pkg'), ('CONDA_EXE', '/home/alex/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.166331] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.166951] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.168373] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ros2_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/alex/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('GIT_ASKPASS', '/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:/home/alex/ros2_ws/install/turtlesim/lib:/home/alex/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/alex'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e4380303-be56-4ced-abb2-8677a6709af4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alex/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('NAME', 'Legion5AS'), ('WSL_INTEROP', '/run/WSL/46284_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.3/bin:/usr/local/cuda-12.3/bin:/usr/local/cuda-12.3/bin:/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/opt/ros/humble/bin:/home/alex/anaconda3/condabin:/usr/local/cuda-12.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/MATLAB/R2023b/bin:/mnt/c/Users/savaa/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5993cd4b60.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/alex/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/alex/ros2_ws/build/turtlesim'), ('CONDA_EXE', '/home/alex/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.192176] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.199867] (-) TimerEvent: {}
+[0.209896] (my_robot_interfaces) StdoutLine: {'line': b'[  3%] Built target my_robot_interfaces__cpp\n'}
+[0.216896] (my_cpp_pkg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[0.217200] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[0.222295] (my_cpp_pkg) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[0.223551] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.230096] (my_cpp_pkg) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[0.230375] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[0.230553] (my_cpp_pkg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o\x1b[0m\n'}
+[0.233349] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.234142] (my_cpp_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o\x1b[0m\n'}
+[0.238002] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.242385] (my_cpp_pkg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[0.248724] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.250458] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.256402] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_my_robot_interfaces\n'}
+[0.273071] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.290275] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.296847] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.299958] (-) TimerEvent: {}
+[0.372857] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.400077] (-) TimerEvent: {}
+[0.400576] (my_robot_interfaces) StdoutLine: {'line': b'[ 22%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.410013] (my_robot_interfaces) StdoutLine: {'line': b'[ 32%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.411563] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o\x1b[0m\n'}
+[0.418122] (my_robot_interfaces) StdoutLine: {'line': b'[ 41%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[0.442412] (my_robot_interfaces) StdoutLine: {'line': b'[ 51%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.442637] (my_robot_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.462183] (my_robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[0.500193] (-) TimerEvent: {}
+[0.590122] (my_robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_robot_interfaces\n'}
+[0.600312] (-) TimerEvent: {}
+[0.700681] (-) TimerEvent: {}
+[0.755150] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_interfaces__py\n'}
+[0.800796] (-) TimerEvent: {}
+[0.824684] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_py\x1b[0m\n'}
+[0.900909] (-) TimerEvent: {}
+[0.924685] (my_robot_interfaces) StdoutLine: {'line': b'[ 80%] Built target my_robot_interfaces__rosidl_generator_py\n'}
+[1.001049] (-) TimerEvent: {}
+[1.062034] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.062272] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.062388] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.102145] (-) TimerEvent: {}
+[1.135317] (my_robot_interfaces) StdoutLine: {'line': b'[ 87%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.141477] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[1.141910] (my_robot_interfaces) StdoutLine: {'line': b'[ 93%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.144378] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[1.145172] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[1.146238] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[1.147193] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[1.147971] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.151323] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.152417] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.171061] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.202261] (-) TimerEvent: {}
+[1.245692] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[1.302397] (-) TimerEvent: {}
+[1.402802] (-) TimerEvent: {}
+[1.472917] (my_robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.476247] (my_robot_interfaces) StdoutLine: {'line': b'writing my_robot_interfaces.egg-info/PKG-INFO\n'}
+[1.476496] (my_robot_interfaces) StdoutLine: {'line': b'writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt\n'}
+[1.476699] (my_robot_interfaces) StdoutLine: {'line': b'writing top-level names to my_robot_interfaces.egg-info/top_level.txt\n'}
+[1.485960] (my_robot_interfaces) StdoutLine: {'line': b"reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[1.491013] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[1.502939] (-) TimerEvent: {}
+[1.603422] (-) TimerEvent: {}
+[1.618782] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_my_robot_interfaces_egg\n'}
+[1.703556] (-) TimerEvent: {}
+[1.761106] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[1.803708] (-) TimerEvent: {}
+[1.904211] (-) TimerEvent: {}
+[2.004595] (-) TimerEvent: {}
+[2.105000] (-) TimerEvent: {}
+[2.205545] (-) TimerEvent: {}
+[2.305987] (-) TimerEvent: {}
+[2.406364] (-) TimerEvent: {}
+[2.506752] (-) TimerEvent: {}
+[2.607178] (-) TimerEvent: {}
+[2.707712] (-) TimerEvent: {}
+[2.808076] (-) TimerEvent: {}
+[2.889926] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[2.904721] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/ros2_ws/build/my_robot_interfaces'], 'cwd': '/home/alex/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('GIT_ASKPASS', '/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:/home/alex/ros2_ws/install/turtlesim/lib:/home/alex/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/alex'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e4380303-be56-4ced-abb2-8677a6709af4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alex/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alex'), ('NAME', 'Legion5AS'), ('WSL_INTEROP', '/run/WSL/46284_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.3/bin:/usr/local/cuda-12.3/bin:/usr/local/cuda-12.3/bin:/home/alex/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/opt/ros/humble/bin:/home/alex/anaconda3/condabin:/usr/local/cuda-12.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/MATLAB/R2023b/bin:/mnt/c/Users/savaa/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5993cd4b60.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/alex/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/alex/ros2_ws/build/my_robot_interfaces'), ('CONDA_EXE', '/home/alex/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alex/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.908205] (-) TimerEvent: {}
+[2.919217] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.919420] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[2.919584] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[2.923529] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[2.924493] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[2.925481] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h\n'}
+[2.925780] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[2.926068] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h\n'}
+[2.926341] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c\n'}
+[2.926562] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.926889] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h\n'}
+[2.927200] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[2.927480] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[2.927889] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[2.928343] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[2.928753] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[2.929060] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[2.929303] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[2.929506] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.929883] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.932481] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[2.932982] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[2.933243] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[2.933475] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[2.933687] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[2.933873] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.934289] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.934776] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[2.935207] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[2.935451] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[2.935752] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[2.936401] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[2.938280] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[2.939014] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[2.940049] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp\n'}
+[2.940391] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[2.940626] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[2.940836] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[2.941100] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.941432] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps\n'}
+[2.941693] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.942129] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.942545] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[2.942808] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[2.943044] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[2.943263] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.943466] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp\n'}
+[2.943887] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.944480] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.944936] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[2.945255] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[2.945525] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info\n'}
+[2.945775] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.946176] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.946541] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.946942] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.947364] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces\n'}
+[2.947675] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.947904] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg\n'}
+[2.948128] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status.py\n'}
+[2.948311] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py\n'}
+[2.948491] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status_s.c\n'}
+[2.948681] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.948861] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py\n'}
+[2.949123] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[2.949368] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.949600] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.949833] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.950081] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.008328] (-) TimerEvent: {}
+[3.079683] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...\n"}
+[3.079952] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...\n"}
+[3.108449] (-) TimerEvent: {}
+[3.131354] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.131612] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.131763] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.131866] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[3.131978] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl\n'}
+[3.132082] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg\n'}
+[3.132186] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[3.132282] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[3.132371] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[3.132456] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.132541] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[3.132630] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[3.132715] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[3.132812] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[3.132921] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[3.133042] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[3.133220] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[3.133345] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[3.133465] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.133599] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.133714] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.133833] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.133954] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.134070] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.134168] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.134255] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.134334] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.134414] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.134649] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.134796] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.134925] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.135032] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.135182] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.135723] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.135910] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.136065] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.136196] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.136324] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.138553] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.138756] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.138887] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.139141] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.139955] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[3.140397] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[3.140748] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alex/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[3.171225] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[3.208604] (-) TimerEvent: {}
+[3.319156] (-) TimerEvent: {}
+[3.431334] (-) TimerEvent: {}
+[3.531745] (-) TimerEvent: {}
+[3.632120] (-) TimerEvent: {}
+[3.732476] (-) TimerEvent: {}
+[3.832841] (-) TimerEvent: {}
+[3.933410] (-) TimerEvent: {}
+[4.033787] (-) TimerEvent: {}
+[4.134199] (-) TimerEvent: {}
+[4.234599] (-) TimerEvent: {}
+[4.322030] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[4.334041] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[4.334682] (-) TimerEvent: {}
+[4.391813] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[4.439985] (-) TimerEvent: {}
+[4.482908] (turtlesim) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[4.531151] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[4.531405] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[4.550370] (-) TimerEvent: {}
+[4.567166] (turtlesim) StdoutLine: {'line': b'[  8%] Built target turtlesim__cpp\n'}
+[4.570409] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[4.600682] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.611358] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[4.650470] (-) TimerEvent: {}
+[4.667339] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.699708] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[4.712491] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[4.761330] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.762059] (-) TimerEvent: {}
+[4.851342] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[4.862186] (-) TimerEvent: {}
+[4.963311] (-) TimerEvent: {}
+[5.063933] (-) TimerEvent: {}
+[5.164298] (-) TimerEvent: {}
+[5.235016] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 1}
+[5.253367] (turtlesim) StdoutLine: {'line': b'[ 14%] Built target turtlesim__rosidl_generator_c\n'}
+[5.264432] (-) TimerEvent: {}
+[5.311328] (turtlesim) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.342500] (turtlesim) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.352093] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.364551] (-) TimerEvent: {}
+[5.464940] (-) TimerEvent: {}
+[5.565583] (-) TimerEvent: {}
+[5.665950] (-) TimerEvent: {}
+[5.766311] (-) TimerEvent: {}
+[5.866707] (-) TimerEvent: {}
+[5.967075] (-) TimerEvent: {}
+[6.067442] (-) TimerEvent: {}
+[6.167816] (-) TimerEvent: {}
+[6.268206] (-) TimerEvent: {}
+[6.368655] (-) TimerEvent: {}
+[6.469021] (-) TimerEvent: {}
+[6.569440] (-) TimerEvent: {}
+[6.669807] (-) TimerEvent: {}
+[6.770186] (-) TimerEvent: {}
+[6.870562] (-) TimerEvent: {}
+[6.970915] (-) TimerEvent: {}
+[7.071269] (-) TimerEvent: {}
+[7.161358] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[7.171280] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[7.171518] (-) TimerEvent: {}
+[7.181964] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[7.272036] (-) TimerEvent: {}
+[7.372405] (-) TimerEvent: {}
+[7.472763] (-) TimerEvent: {}
+[7.573163] (-) TimerEvent: {}
+[7.673517] (-) TimerEvent: {}
+[7.774179] (-) TimerEvent: {}
+[7.843139] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[7.862775] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[7.874268] (-) TimerEvent: {}
+[7.974823] (-) TimerEvent: {}
+[8.075211] (-) TimerEvent: {}
+[8.101435] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[8.175330] (-) TimerEvent: {}
+[8.258426] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[8.276264] (-) TimerEvent: {}
+[8.305541] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[8.330300] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[8.360055] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[8.376394] (-) TimerEvent: {}
+[8.476767] (-) TimerEvent: {}
+[8.507048] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[8.576914] (-) TimerEvent: {}
+[8.649889] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[8.677205] (-) TimerEvent: {}
+[8.734482] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[8.777442] (-) TimerEvent: {}
+[8.875642] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[8.877560] (-) TimerEvent: {}
+[8.951367] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[8.977718] (-) TimerEvent: {}
+[9.026014] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.078066] (-) TimerEvent: {}
+[9.115623] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.178207] (-) TimerEvent: {}
+[9.222312] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[9.278338] (-) TimerEvent: {}
+[9.378710] (-) TimerEvent: {}
+[9.411255] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[9.412009] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[9.478839] (-) TimerEvent: {}
+[9.482405] (turtlesim) StdoutLine: {'line': b'[ 37%] Built target turtlesim__rosidl_typesupport_c\n'}
+[9.511072] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[9.521149] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[9.541141] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[9.579008] (-) TimerEvent: {}
+[9.611382] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[9.679196] (-) TimerEvent: {}
+[9.686361] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[9.770860] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[9.779370] (-) TimerEvent: {}
+[9.879744] (-) TimerEvent: {}
+[9.918006] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[9.942152] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.979879] (-) TimerEvent: {}
+[10.080295] (-) TimerEvent: {}
+[10.124453] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.180418] (-) TimerEvent: {}
+[10.221432] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[10.280559] (-) TimerEvent: {}
+[10.381002] (-) TimerEvent: {}
+[10.481406] (-) TimerEvent: {}
+[10.482040] (turtlesim) StdoutLine: {'line': b'[ 47%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[10.507768] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[10.581524] (-) TimerEvent: {}
+[10.582078] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[10.611284] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[10.681650] (-) TimerEvent: {}
+[10.734595] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[10.756208] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[10.781768] (-) TimerEvent: {}
+[10.882126] (-) TimerEvent: {}
+[10.982512] (-) TimerEvent: {}
+[11.082956] (-) TimerEvent: {}
+[11.111105] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[11.183090] (-) TimerEvent: {}
+[11.284042] (-) TimerEvent: {}
+[11.384497] (-) TimerEvent: {}
+[11.484884] (-) TimerEvent: {}
+[11.565366] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[11.585139] (-) TimerEvent: {}
+[11.685715] (-) TimerEvent: {}
+[11.794811] (-) TimerEvent: {}
+[11.826281] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.894952] (-) TimerEvent: {}
+[11.995364] (-) TimerEvent: {}
+[12.097223] (-) TimerEvent: {}
+[12.139481] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[12.197347] (-) TimerEvent: {}
+[12.251648] (turtlesim) StdoutLine: {'line': b'[ 56%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[12.297492] (-) TimerEvent: {}
+[12.301729] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[12.324794] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[12.397617] (-) TimerEvent: {}
+[12.421528] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[12.497743] (-) TimerEvent: {}
+[12.508677] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[12.543122] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[12.597973] (-) TimerEvent: {}
+[12.633593] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[12.698076] (-) TimerEvent: {}
+[12.798690] (-) TimerEvent: {}
+[12.831329] (my_cpp_pkg) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[12.899139] (-) TimerEvent: {}
+[12.999705] (-) TimerEvent: {}
+[13.027962] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[13.090642] (my_cpp_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client\x1b[0m\n'}
+[13.099826] (-) TimerEvent: {}
+[13.200201] (-) TimerEvent: {}
+[13.208255] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[13.266556] (my_cpp_pkg) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_server\x1b[0m\n'}
+[13.300335] (-) TimerEvent: {}
+[13.400698] (-) TimerEvent: {}
+[13.434878] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[13.500831] (-) TimerEvent: {}
+[13.601226] (-) TimerEvent: {}
+[13.651655] (my_cpp_pkg) StdoutLine: {'line': b'[ 68%] Built target cpp_node\n'}
+[13.672557] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[13.701346] (-) TimerEvent: {}
+[13.711604] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[13.761258] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.801668] (-) TimerEvent: {}
+[13.863080] (my_cpp_pkg) StdoutLine: {'line': b'[ 68%] Built target add_two_ints_client\n'}
+[13.902271] (-) TimerEvent: {}
+[14.002696] (-) TimerEvent: {}
+[14.076222] (my_cpp_pkg) StdoutLine: {'line': b'[ 68%] Built target add_two_ints_server\n'}
+[14.102823] (-) TimerEvent: {}
+[14.146441] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client_no_oop\x1b[0m\n'}
+[14.202948] (-) TimerEvent: {}
+[14.303340] (-) TimerEvent: {}
+[14.362592] (turtlesim) StdoutLine: {'line': b'[ 68%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[14.403493] (-) TimerEvent: {}
+[14.501050] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[14.503618] (-) TimerEvent: {}
+[14.604002] (-) TimerEvent: {}
+[14.640284] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[14.690424] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[14.700755] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.704122] (-) TimerEvent: {}
+[14.804479] (-) TimerEvent: {}
+[14.852145] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[14.852970] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target add_two_ints_client_no_oop\n'}
+[14.904617] (-) TimerEvent: {}
+[15.007367] (-) TimerEvent: {}
+[15.107770] (-) TimerEvent: {}
+[15.193111] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[15.207899] (-) TimerEvent: {}
+[15.241193] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[15.308027] (-) TimerEvent: {}
+[15.408379] (-) TimerEvent: {}
+[15.508755] (-) TimerEvent: {}
+[15.609142] (-) TimerEvent: {}
+[15.709525] (-) TimerEvent: {}
+[15.809903] (-) TimerEvent: {}
+[15.910297] (-) TimerEvent: {}
+[15.936161] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[15.993831] (my_cpp_pkg) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable number_publisher\x1b[0m\n'}
+[16.010536] (-) TimerEvent: {}
+[16.107959] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[16.110661] (-) TimerEvent: {}
+[16.211044] (-) TimerEvent: {}
+[16.280403] (my_cpp_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[16.289448] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[16.311155] (-) TimerEvent: {}
+[16.411505] (-) TimerEvent: {}
+[16.511874] (-) TimerEvent: {}
+[16.612278] (-) TimerEvent: {}
+[16.641681] (my_cpp_pkg) StdoutLine: {'line': b'[ 87%] Built target number_publisher\n'}
+[16.712402] (-) TimerEvent: {}
+[16.812765] (-) TimerEvent: {}
+[16.913336] (-) TimerEvent: {}
+[16.921335] (my_cpp_pkg) StdoutLine: {'line': b'[ 87%] Built target robot_news_station\n'}
+[16.956332] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[17.013461] (-) TimerEvent: {}
+[17.113912] (-) TimerEvent: {}
+[17.210351] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[17.214077] (-) TimerEvent: {}
+[17.314451] (-) TimerEvent: {}
+[17.414844] (-) TimerEvent: {}
+[17.515213] (-) TimerEvent: {}
+[17.556740] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[17.615364] (-) TimerEvent: {}
+[17.715745] (-) TimerEvent: {}
+[17.720261] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim\n'}
+[17.815873] (-) TimerEvent: {}
+[17.872673] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[17.916014] (-) TimerEvent: {}
+[18.016374] (-) TimerEvent: {}
+[18.116759] (-) TimerEvent: {}
+[18.217407] (-) TimerEvent: {}
+[18.326238] (-) TimerEvent: {}
+[18.426618] (-) TimerEvent: {}
+[18.527012] (-) TimerEvent: {}
+[18.627593] (-) TimerEvent: {}
+[18.727972] (-) TimerEvent: {}
+[18.828339] (-) TimerEvent: {}
+[18.928858] (-) TimerEvent: {}
+[19.029251] (-) TimerEvent: {}
+[19.129632] (-) TimerEvent: {}
+[19.230013] (-) TimerEvent: {}
+[19.330412] (-) TimerEvent: {}
+[19.430819] (-) TimerEvent: {}
+[19.531225] (-) TimerEvent: {}
+[19.631779] (-) TimerEvent: {}
+[19.732147] (-) TimerEvent: {}
+[19.832495] (-) TimerEvent: {}
+[19.932861] (-) TimerEvent: {}
+[20.033238] (-) TimerEvent: {}
+[20.133608] (-) TimerEvent: {}
+[20.234002] (-) TimerEvent: {}
+[20.334485] (-) TimerEvent: {}
+[20.434845] (-) TimerEvent: {}
+[20.535226] (-) TimerEvent: {}
+[20.635599] (-) TimerEvent: {}
+[20.735990] (-) TimerEvent: {}
+[20.836624] (-) TimerEvent: {}
+[20.936993] (-) TimerEvent: {}
+[21.037355] (-) TimerEvent: {}
+[21.137692] (-) TimerEvent: {}
+[21.238097] (-) TimerEvent: {}
+[21.338468] (-) TimerEvent: {}
+[21.438825] (-) TimerEvent: {}
+[21.539268] (-) TimerEvent: {}
+[21.639706] (-) TimerEvent: {}
+[21.740082] (-) TimerEvent: {}
+[21.840424] (-) TimerEvent: {}
+[21.940766] (-) TimerEvent: {}
+[22.041152] (-) TimerEvent: {}
+[22.141522] (-) TimerEvent: {}
+[22.241881] (-) TimerEvent: {}
+[22.342389] (-) TimerEvent: {}
+[22.444602] (-) TimerEvent: {}
+[22.544964] (-) TimerEvent: {}
+[22.645406] (-) TimerEvent: {}
+[22.749192] (-) TimerEvent: {}
+[22.856199] (-) TimerEvent: {}
+[22.956581] (-) TimerEvent: {}
+[23.068384] (-) TimerEvent: {}
+[23.169159] (-) TimerEvent: {}
+[23.271183] (-) TimerEvent: {}
+[23.373387] (-) TimerEvent: {}
+[23.439535] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim__py\n'}
+[23.473527] (-) TimerEvent: {}
+[23.573927] (-) TimerEvent: {}
+[23.584702] (turtlesim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[23.674061] (-) TimerEvent: {}
+[23.774443] (-) TimerEvent: {}
+[23.874973] (-) TimerEvent: {}
+[23.975552] (-) TimerEvent: {}
+[24.002122] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[24.075691] (-) TimerEvent: {}
+[24.176097] (-) TimerEvent: {}
+[24.276707] (-) TimerEvent: {}
+[24.377096] (-) TimerEvent: {}
+[24.392353] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[24.477242] (-) TimerEvent: {}
+[24.577617] (-) TimerEvent: {}
+[24.678000] (-) TimerEvent: {}
+[24.753168] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[24.778131] (-) TimerEvent: {}
+[24.878562] (-) TimerEvent: {}
+[24.979002] (-) TimerEvent: {}
+[25.079435] (-) TimerEvent: {}
+[25.080684] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[25.179569] (-) TimerEvent: {}
+[25.279980] (-) TimerEvent: {}
+[25.380435] (-) TimerEvent: {}
+[25.480842] (-) TimerEvent: {}
+[25.552956] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[25.580999] (-) TimerEvent: {}
+[25.681376] (-) TimerEvent: {}
+[25.781827] (-) TimerEvent: {}
+[25.860482] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[25.882117] (-) TimerEvent: {}
+[25.982908] (-) TimerEvent: {}
+[26.083287] (-) TimerEvent: {}
+[26.183687] (-) TimerEvent: {}
+[26.284339] (-) TimerEvent: {}
+[26.362304] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[26.384342] (-) TimerEvent: {}
+[26.484748] (-) TimerEvent: {}
+[26.566445] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[26.584879] (-) TimerEvent: {}
+[26.685266] (-) TimerEvent: {}
+[26.785685] (-) TimerEvent: {}
+[26.886105] (-) TimerEvent: {}
+[26.908305] (turtlesim) StdoutLine: {'line': b'[ 89%] Built target turtlesim__rosidl_generator_py\n'}
+[26.991110] (-) TimerEvent: {}
+[27.052072] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[27.081860] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[27.091336] (-) TimerEvent: {}
+[27.192603] (-) TimerEvent: {}
+[27.293190] (-) TimerEvent: {}
+[27.393557] (-) TimerEvent: {}
+[27.494025] (-) TimerEvent: {}
+[27.594409] (-) TimerEvent: {}
+[27.611327] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.694557] (-) TimerEvent: {}
+[27.731372] (turtlesim) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.795388] (-) TimerEvent: {}
+[27.895872] (-) TimerEvent: {}
+[27.941239] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[27.996020] (-) TimerEvent: {}
+[28.081901] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[28.092506] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[28.096128] (-) TimerEvent: {}
+[28.196555] (-) TimerEvent: {}
+[28.297090] (-) TimerEvent: {}
+[28.397476] (-) TimerEvent: {}
+[28.497851] (-) TimerEvent: {}
+[28.552143] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[28.597983] (-) TimerEvent: {}
+[28.698393] (-) TimerEvent: {}
+[28.798821] (-) TimerEvent: {}
+[28.811969] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[28.898955] (-) TimerEvent: {}
+[28.999358] (-) TimerEvent: {}
+[29.099812] (-) TimerEvent: {}
+[29.200229] (-) TimerEvent: {}
+[29.235540] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[29.280279] (my_cpp_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[29.300446] (-) TimerEvent: {}
+[29.402021] (-) TimerEvent: {}
+[29.502484] (-) TimerEvent: {}
+[29.603000] (-) TimerEvent: {}
+[29.703552] (-) TimerEvent: {}
+[29.804050] (-) TimerEvent: {}
+[29.904576] (-) TimerEvent: {}
+[29.954799] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable number_counter\x1b[0m\n'}
+[30.003176] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtle_teleop_key\n'}
+[30.005173] (-) TimerEvent: {}
+[30.105599] (-) TimerEvent: {}
+[30.206001] (-) TimerEvent: {}
+[30.306533] (-) TimerEvent: {}
+[30.396547] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[30.406985] (-) TimerEvent: {}
+[30.509723] (-) TimerEvent: {}
+[30.610086] (-) TimerEvent: {}
+[30.710509] (-) TimerEvent: {}
+[30.810942] (-) TimerEvent: {}
+[30.911717] (-) TimerEvent: {}
+[30.915941] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target number_counter\n'}
+[30.930994] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 'SIGINT'}
+[31.011900] (-) TimerEvent: {}
+[31.112349] (-) TimerEvent: {}
+[31.212774] (-) TimerEvent: {}
+[31.313163] (-) TimerEvent: {}
+[31.413572] (-) TimerEvent: {}
+[31.513942] (-) TimerEvent: {}
+[31.614425] (-) TimerEvent: {}
+[31.717403] (-) TimerEvent: {}
+[31.817857] (-) TimerEvent: {}
+[31.918367] (-) TimerEvent: {}
+[32.018819] (-) TimerEvent: {}
+[32.119160] (-) TimerEvent: {}
+[32.219723] (-) TimerEvent: {}
+[32.320135] (-) TimerEvent: {}
+[32.420525] (-) TimerEvent: {}
+[32.520936] (-) TimerEvent: {}
+[32.621339] (-) TimerEvent: {}
+[32.721800] (-) TimerEvent: {}
+[32.822183] (-) TimerEvent: {}
+[32.922562] (-) TimerEvent: {}
+[33.023023] (-) TimerEvent: {}
+[33.123484] (-) TimerEvent: {}
+[33.224086] (-) TimerEvent: {}
+[33.324605] (-) TimerEvent: {}
+[33.425058] (-) TimerEvent: {}
+[33.525473] (-) TimerEvent: {}
+[33.625861] (-) TimerEvent: {}
+[33.726265] (-) TimerEvent: {}
+[33.826711] (-) TimerEvent: {}
+[33.927088] (-) TimerEvent: {}
+[34.027730] (-) TimerEvent: {}
+[34.128132] (-) TimerEvent: {}
+[34.228544] (-) TimerEvent: {}
+[34.328984] (-) TimerEvent: {}
+[34.429516] (-) TimerEvent: {}
+[34.529971] (-) TimerEvent: {}
+[34.630438] (-) TimerEvent: {}
+[34.730801] (-) TimerEvent: {}
+[34.831253] (-) TimerEvent: {}
+[34.931656] (-) TimerEvent: {}
+[34.940790] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[35.031820] (-) TimerEvent: {}
+[35.132284] (-) TimerEvent: {}
+[35.232758] (-) TimerEvent: {}
+[35.333243] (-) TimerEvent: {}
+[35.433708] (-) TimerEvent: {}
+[35.534193] (-) TimerEvent: {}
+[35.634683] (-) TimerEvent: {}
+[35.666942] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[35.719005] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target draw_square\n'}
+[35.734837] (-) TimerEvent: {}
+[35.835300] (-) TimerEvent: {}
+[35.935748] (-) TimerEvent: {}
+[36.036123] (-) TimerEvent: {}
+[36.136556] (-) TimerEvent: {}
+[36.236993] (-) TimerEvent: {}
+[36.312511] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target mimic\n'}
+[36.337132] (-) TimerEvent: {}
+[36.437477] (-) TimerEvent: {}
+[36.537850] (-) TimerEvent: {}
+[36.638274] (-) TimerEvent: {}
+[36.738723] (-) TimerEvent: {}
+[36.839188] (-) TimerEvent: {}
+[36.939687] (-) TimerEvent: {}
+[37.040136] (-) TimerEvent: {}
+[37.140561] (-) TimerEvent: {}
+[37.240947] (-) TimerEvent: {}
+[37.341433] (-) TimerEvent: {}
+[37.441853] (-) TimerEvent: {}
+[37.542244] (-) TimerEvent: {}
+[37.642712] (-) TimerEvent: {}
+[37.743124] (-) TimerEvent: {}
+[37.843530] (-) TimerEvent: {}
+[37.943894] (-) TimerEvent: {}
+[38.044320] (-) TimerEvent: {}
+[38.144702] (-) TimerEvent: {}
+[38.245061] (-) TimerEvent: {}
+[38.345739] (-) TimerEvent: {}
+[38.446194] (-) TimerEvent: {}
+[38.546609] (-) TimerEvent: {}
+[38.646990] (-) TimerEvent: {}
+[38.747435] (-) TimerEvent: {}
+[38.847784] (-) TimerEvent: {}
+[38.948131] (-) TimerEvent: {}
+[39.048534] (-) TimerEvent: {}
+[39.148903] (-) TimerEvent: {}
+[39.249383] (-) TimerEvent: {}
+[39.349725] (-) TimerEvent: {}
+[39.450081] (-) TimerEvent: {}
+[39.550451] (-) TimerEvent: {}
+[39.650870] (-) TimerEvent: {}
+[39.751310] (-) TimerEvent: {}
+[39.851729] (-) TimerEvent: {}
+[39.952179] (-) TimerEvent: {}
+[40.052538] (-) TimerEvent: {}
+[40.152870] (-) TimerEvent: {}
+[40.253213] (-) TimerEvent: {}
+[40.292819] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[40.353338] (-) TimerEvent: {}
+[40.453690] (-) TimerEvent: {}
+[40.554076] (-) TimerEvent: {}
+[40.654433] (-) TimerEvent: {}
+[40.754811] (-) TimerEvent: {}
+[40.855172] (-) TimerEvent: {}
+[40.955560] (-) TimerEvent: {}
+[41.056011] (-) TimerEvent: {}
+[41.156457] (-) TimerEvent: {}
+[41.256879] (-) TimerEvent: {}
+[41.357261] (-) TimerEvent: {}
+[41.457630] (-) TimerEvent: {}
+[41.558131] (-) TimerEvent: {}
+[41.658638] (-) TimerEvent: {}
+[41.759046] (-) TimerEvent: {}
+[41.859457] (-) TimerEvent: {}
+[41.959834] (-) TimerEvent: {}
+[42.060169] (-) TimerEvent: {}
+[42.160507] (-) TimerEvent: {}
+[42.260863] (-) TimerEvent: {}
+[42.361219] (-) TimerEvent: {}
+[42.461586] (-) TimerEvent: {}
+[42.562020] (-) TimerEvent: {}
+[42.662453] (-) TimerEvent: {}
+[42.699393] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[42.711205] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 'SIGINT'}
+[42.722189] (-) EventReactorShutdown: {}
