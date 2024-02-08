@@ -1,0 +1,21 @@
+[0.281s] Invoking command in '/home/alex/ros2_ws/build/turtlesim': /usr/bin/cmake /home/alex/ros2_ws/src/ros_tutorials/turtlesim -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/turtlesim
+[0.310s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.310s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.310s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.310s]   CMake did not find one.
+[0.310s] 
+[0.310s]   Could not find a package configuration file provided by "catkin" with any
+[0.310s]   of the following names:
+[0.311s] 
+[0.311s]     catkinConfig.cmake
+[0.311s]     catkin-config.cmake
+[0.311s] 
+[0.311s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.311s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.311s]   provides a separate development package or SDK, be sure it has been
+[0.311s]   installed.
+[0.312s] 
+[0.312s] [0m
+[0.312s] -- Configuring incomplete, errors occurred!
+[0.312s] See also "/home/alex/ros2_ws/build/turtlesim/CMakeFiles/CMakeOutput.log".
+[0.313s] Invoked command in '/home/alex/ros2_ws/build/turtlesim' returned '1': /usr/bin/cmake /home/alex/ros2_ws/src/ros_tutorials/turtlesim -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/turtlesim

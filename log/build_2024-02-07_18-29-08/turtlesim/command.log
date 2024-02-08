@@ -1,0 +1,2 @@
+Invoking command in '/home/alex/ros2_ws/build/turtlesim': /usr/bin/cmake /home/alex/ros2_ws/src/ros_tutorials/turtlesim -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/turtlesim
+Invoked command in '/home/alex/ros2_ws/build/turtlesim' returned '1': /usr/bin/cmake /home/alex/ros2_ws/src/ros_tutorials/turtlesim -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/install/turtlesim

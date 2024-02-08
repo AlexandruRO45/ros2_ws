@@ -1,0 +1,29 @@
+[1.288s] Invoking command in '/home/alex/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/my_robot_interfaces:/home/alex/rmf_ws/install/rmf_demos_gz_classic:/home/alex/rmf_ws/install/rmf_demos_gz:/home/alex/rmf_ws/install/rmf_demos:/home/alex/rmf_ws/install/rmf_demos_maps:/home/alex/rmf_ws/install/rmf_demos_dashboard_resources:/home/alex/rmf_ws/install/rmf_demos_assets:/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/turtlesim:/home/alex/ros2_ws/install/my_cpp_pkg LD_LIBRARY_PATH=/home/alex/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/alex/ros2_ws/install/webots_ros2_control/lib:/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib:/home/alex/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/alex/ros2_ws/build/my_py_pkg/prefix_override:/home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/alex/ros2_ws/build/my_py_pkg/build install --record /home/alex/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.800s] running egg_info
+[1.801s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.802s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.802s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.802s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.803s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.807s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.809s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.809s] running build
+[1.809s] running build_py
+[1.811s] running install
+[1.812s] running install_lib
+[1.816s] running install_data
+[1.817s] running install_egg_info
+[1.821s] removing '/home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.821s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.823s] running install_scripts
+[1.868s] Installing add_two_ints_client script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.869s] Installing add_two_ints_client_no_oop script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.869s] Installing add_two_ints_server script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.869s] Installing hardware_status_publisher script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.869s] Installing number_counter script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.870s] Installing number_publisher script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.870s] Installing py_node script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.870s] Installing robot_news_station script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.871s] Installing smartphone script to /home/alex/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.872s] writing list of installed files to '/home/alex/ros2_ws/build/my_py_pkg/install.log'
+[1.934s] Invoked command in '/home/alex/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/alex/ros2_ws/install/my_robot_interfaces:/home/alex/rmf_ws/install/rmf_demos_gz_classic:/home/alex/rmf_ws/install/rmf_demos_gz:/home/alex/rmf_ws/install/rmf_demos:/home/alex/rmf_ws/install/rmf_demos_maps:/home/alex/rmf_ws/install/rmf_demos_dashboard_resources:/home/alex/rmf_ws/install/rmf_demos_assets:/home/alex/ros2_ws/install/webots_ros2_control:/home/alex/ros2_ws/install/webots_ros2_driver:/home/alex/ros2_ws/install/webots_ros2_msgs:/home/alex/ros2_ws/install/turtlesim:/home/alex/ros2_ws/install/my_cpp_pkg LD_LIBRARY_PATH=/home/alex/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/alex/ros2_ws/install/webots_ros2_control/lib:/home/alex/ros2_ws/install/webots_ros2_driver/lib:/home/alex/ros2_ws/install/webots_ros2_msgs/lib:/home/alex/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/alex/ros2_ws/build/my_py_pkg/prefix_override:/home/alex/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/alex/ros2_ws/build/my_py_pkg/build install --record /home/alex/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
