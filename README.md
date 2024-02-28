@@ -1,4 +1,4 @@
-# ROS 2 Workspace
+# ROS 2 Workspace (Humble)
 
 This repository contains my general purpose ROS 2 workspace.
 
